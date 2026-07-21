@@ -17,7 +17,7 @@ def test_normalize_fills_all_keys_and_coerces():
     raw = {"source": "test", "location_text": "Oton, Iloilo",
            "province": "Iloilo", "price_php": "₱5,020,000"}
     rec = normalize(raw)
-    assert set(rec.keys()) == set(RECORD_KEYS)
+    assert list(rec.keys()) == RECORD_KEYS  # exact order is a hard constraint
     assert rec["price_php"] == 5020000.0
     assert rec["tct"] is None
     assert rec["maps_url"].endswith("Oton%2C+Iloilo%2C+Philippines")
