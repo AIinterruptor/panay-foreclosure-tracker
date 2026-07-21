@@ -334,8 +334,8 @@ function boot(LISTINGS, META){
 (function(){
   var grid=document.getElementById("grid");
   Promise.all([
-    fetch("../data/listings.json").then(function(r){if(!r.ok)throw new Error("listings "+r.status);return r.json();}),
-    fetch("../data/meta.json").then(function(r){if(!r.ok)throw new Error("meta "+r.status);return r.json();})
+    fetch("data/listings.json").then(function(r){if(!r.ok)throw new Error("listings "+r.status);return r.json();}),
+    fetch("data/meta.json").then(function(r){if(!r.ok)throw new Error("meta "+r.status);return r.json();})
   ]).then(function(res){ boot(res[0], res[1]); })
    .catch(function(e){
      if(grid) grid.innerHTML='<div class="empty">The register could not be loaded ('+e.message+'). It refreshes every six hours — please try again shortly.</div>';

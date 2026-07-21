@@ -24,7 +24,9 @@ import csv, json, re, pathlib
 from datetime import datetime, timezone, timedelta
 from normalize import RECORD_KEYS
 
-DATA = pathlib.Path(__file__).resolve().parent / "data"
+# Data lives INSIDE docs/ so GitHub Pages (served from /docs) can fetch it.
+# The dashboard requests "data/listings.json" relative to docs/index.html.
+DATA = pathlib.Path(__file__).resolve().parent / "docs" / "data"
 PROV_ORDER = ["Iloilo", "Capiz", "Aklan", "Antique", "Guimaras"]
 OFFICIAL = {"pagibig_opa", "metrobank"}
 
