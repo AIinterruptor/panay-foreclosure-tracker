@@ -37,7 +37,7 @@ ROW_ALTERNATE = {
     "lot_size": "200.5",
     "floor_size": "60",
     "classification": "Commercial",
-    "disposal_flag_desc": "Public Auction",
+    "disposal_flag_desc": "Sealed Bid",
 }
 
 SYNTHETIC_PAYLOAD = {"success": True, "data": [ROW_PRIMARY, ROW_ALTERNATE]}
@@ -68,7 +68,7 @@ def test_parse_maps_both_primary_and_alternate_key_variants():
     assert alternate["lot_area_sqm"] == 200.5
     assert alternate["floor_area_sqm"] == 60.0
     assert alternate["property_type"] == "Commercial"
-    assert alternate["sale_type"] == "Public Auction"
+    assert alternate["sale_type"] == "Sealed Bid"
     assert "Roxas City" in alternate["location_text"]
 
 
