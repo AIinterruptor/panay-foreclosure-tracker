@@ -27,3 +27,15 @@ def test_normalize_passes_through_image_url():
     rec = normalize({"location_text": "Jordan, Guimaras",
                      "image_url": "https://example.com/lot.jpg"})
     assert rec["image_url"] == "https://example.com/lot.jpg"
+
+def test_normalize_passes_through_source_url_and_posted_date_when_provided():
+    rec = normalize({"location_text": "Jordan, Guimaras",
+                     "source_url": "https://www.foreclosurephilippines.com/advert/abc/",
+                     "posted_date": "2026/07/20"})
+    assert rec["source_url"] == "https://www.foreclosurephilippines.com/advert/abc/"
+    assert rec["posted_date"] == "2026/07/20"
+
+def test_normalize_defaults_source_url_and_posted_date_to_none_when_absent():
+    rec = normalize({"location_text": "Jordan, Guimaras"})
+    assert rec["source_url"] is None
+    assert rec["posted_date"] is None

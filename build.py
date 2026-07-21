@@ -1,7 +1,7 @@
 """Build pipeline: runs all scrapers, normalizes, dedups, sorts, retains-on-empty,
 and emits data/listings.json, data/listings.csv, data/meta.json.
 
-Schema: normalize.RECORD_KEYS (13 keys, ending in image_url). The CSV writer
+Schema: normalize.RECORD_KEYS (15 keys, ending in source_url, posted_date). The CSV writer
 uses csv.DictWriter(fieldnames=RECORD_KEYS) so it tracks the schema automatically
 -- nothing here hardcodes a fixed-length field list.
 

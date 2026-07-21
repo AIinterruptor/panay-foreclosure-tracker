@@ -1,4 +1,5 @@
 import pathlib
+import re
 from scrapers.foreclosurephilippines import parse
 
 FIX = pathlib.Path(__file__).parent / "fixtures"
@@ -60,3 +61,24 @@ def test_missing_floor_area_yields_none_without_error():
     assert len(recs) > 0
     # Guimaras listings are all vacant lots / no floor-area node in this fixture
     assert all(r["floor_area_sqm"] is None for r in recs)
+
+
+def test_source_url_and_posted_date_pass_through_from_list_page():
+    html = (FIX / "foreclosurephilippines_iloilo.html").read_text(encoding="utf-8")
+    recs = parse(html, "Iloilo")
+    assert len(recs) > 0
+    assert any(
+        r["source_url"]
+        and r["source_url"].startswith(
+            "https://www.foreclosurephilippines.com/advert"
+        )
+        for r in recs
+    )
+    assert any(
+        r["posted_date"] and re.match(r"^\d{4}/\d{2}/\d{2}$", r["posted_date"])
+        for r in recs
+    )
+    # every record with a source_url must have a non-empty (not just truthy-looking) value
+    for r in recs:
+        if r["source_url"] is not None:
+            assert r["source_url"] != ""

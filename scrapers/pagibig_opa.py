@@ -108,6 +108,10 @@ def parse(payload, province):
             or "Public Auction",
             "image_url": _first_present(row, ["image_url", "photo", "image"]),
             "tct": None,  # not available via OPA list API (v1)
+            "source_url": _first_present(row, ["detail_url", "url"]),
+            "posted_date": _first_present(
+                row, ["posting_date", "date_posted"]
+            ),
         }
         out.append(normalize(raw))
     return out

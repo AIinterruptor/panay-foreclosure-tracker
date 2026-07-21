@@ -14,9 +14,13 @@ Card markup confirmed against tests/fixtures/metrobank_region6.html (Task 2 reco
         [1] location_text, e.g. "Pavia, Iloilo"
         [2] area free-text: "69 / 62 sqm (FA/LA)" or "1,871 sqm (LA)"
         [3] price -- amount lives in span[class*="PropertyCard_priceAmount__"]
+      a[class*="PropertyCard_detailsLink__"][href]        <- relative details link
+        (form "/assets-for-sale/properties/details?id=..."; prefixed with
+        https://www.metrobank.com.ph to build the absolute source_url)
 
 The list is NATIONWIDE. parse() filters to Panay + Guimaras provinces only.
 tct is always None here -- only available on detail pages (Commander decision, v1).
+posted_date is always None here -- Metrobank list cards carry no posting date.
 """
 
 import re
@@ -99,6 +103,22 @@ def _image_url(card):
     return src
 
 
+DETAILS_BASE = "https://www.metrobank.com.ph"
+
+
+def _source_url(card):
+    a = card.select_one('a[class*="PropertyCard_detailsLink__"]')
+    if a is None:
+        return None
+    href = a.get("href")
+    if not href:
+        return None
+    href = href.strip()
+    if href.startswith("http://") or href.startswith("https://"):
+        return href
+    return DETAILS_BASE + href
+
+
 def parse(html):
     """Parse the Metrobank property list into normalized Panay/Guimaras records.
 
@@ -135,6 +155,8 @@ def parse(html):
             "floor_area_sqm": floor_area,
             "tct": None,  # only on detail pages (Commander decision, v1)
             "image_url": _image_url(card),
+            "source_url": _source_url(card),
+            "posted_date": None,  # Metrobank list cards carry no posting date (v1)
         }
         records.append(normalize(raw))
     return records

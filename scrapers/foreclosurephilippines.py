@@ -6,6 +6,8 @@ and tests/fixtures/foreclosurephilippines_guimaras.html (Task 2 recon):
     div.wpa-result-item                                        <- card container
       div.wpa-picture-grid img[src]                             <- photo (or placeholder)
       span.wpa-result-title-text  (or <a title="...">)          <- full listing title
+      a.wpa-result-link[href]                                    <- advert URL (source_url)
+      div.wpa-result-meta--pattern__post_date                   <- "2026/07/20" (posted_date)
       div.wpa-result-meta--meta__adverts_location               <- "Oton, Iloilo"
       div.wpa-result-meta--meta__advert_pretty_lot_area         <- "Lot Area: 36.00 sqm"
       div.wpa-result-meta--meta__advert_pretty_floor_area       <- "Floor Area: 22.00 sqm" (optional)
@@ -105,6 +107,22 @@ def _image_url(card):
     return src
 
 
+def _source_url(card):
+    a = card.select_one("a.wpa-result-link")
+    if a is None:
+        return None
+    href = a.get("href")
+    return href.strip() if href else None
+
+
+def _posted_date(card):
+    el = card.select_one("div.wpa-result-meta--pattern__post_date")
+    if el is None:
+        return None
+    text = el.get_text(strip=True)
+    return text or None
+
+
 def parse(html, province):
     """Parse one province listing page into normalized records. Pure, no network."""
     soup = BeautifulSoup(html, "html.parser")
@@ -137,6 +155,8 @@ def parse(html, province):
             "seller": _infer_seller(title),
             "property_type": _infer_property_type(title),
             "image_url": _image_url(card),
+            "source_url": _source_url(card),
+            "posted_date": _posted_date(card),
         }
         records.append(normalize(raw))
     return records

@@ -35,6 +35,11 @@ def test_parse_finds_known_pavia_iloilo_card():
     assert r["floor_area_sqm"] == 40.0
     assert r["lot_area_sqm"] == 45.0
     assert r["property_type"] == "Residential With Improvement"
+    assert r["source_url"] is not None
+    assert r["source_url"].startswith(
+        "https://www.metrobank.com.ph/assets-for-sale/properties/details?id="
+    )
+    assert r["posted_date"] is None
 
 
 def test_parse_excludes_non_panay_cards():
