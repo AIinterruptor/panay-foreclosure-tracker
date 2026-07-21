@@ -280,8 +280,16 @@ def test_enrich_listings_total_block_returns_records_unchanged_and_does_not_rais
 
     assert len(out_records) == len(base_snapshot)
     for base, out in zip(base_snapshot, out_records):
+        # Every field survives a total block, INCLUDING branch/tct — enrichment
+        # is additive-only and must never null out or alter base-schema data.
         for key in base:
-            if key in ("branch", "tct"):
-                continue
             assert out[key] == base[key]
         assert out["branch"] is None
+
+
+def test_enrich_additive_never_overwrites_preexisting_tct_on_total_block():
+    """A tct the base scrape already set must survive a failed/capped fetch."""
+    records = [_rec(source_url="https://x/1", price_php=1000.0, tct="T-EXISTING")]
+    out_records, _, _ = enrich_listings(
+        records, {}, lambda url: None, cap=12, now_iso="2026-07-21T00:00:00Z")
+    assert out_records[0]["tct"] == "T-EXISTING"  # not wiped to None

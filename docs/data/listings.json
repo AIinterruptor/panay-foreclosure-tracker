@@ -8,13 +8,14 @@
     "price_php": 408690.0,
     "lot_area_sqm": 36.0,
     "floor_area_sqm": 22.0,
-    "tct": null,
+    "tct": "090-2020004231",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Oton%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250915014-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202508190022-lot-03-blk-18-phase-i-lumina-iloilo-abilay-norte-oton-iloilo-5020-2nd-public-auction-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/20"
+    "posted_date": "2026/07/20",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "metrobank",
@@ -25,13 +26,14 @@
     "price_php": 792000.0,
     "lot_area_sqm": 45.0,
     "floor_area_sqm": 40.0,
-    "tct": null,
+    "tct": "090-2022010962",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pavia%2C+Iloilo%2C+Philippines",
     "image_url": "https://metrobank-ropa-prod.s3.ap-southeast-1.amazonaws.com/60809",
     "source_url": "https://www.metrobank.com.ph/assets-for-sale/properties/details?id=10828000004085",
-    "posted_date": null
+    "posted_date": null,
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -42,13 +44,14 @@
     "price_php": 1156778.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "090-2022023202",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250609023-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-id-858202504290005-foreclosed-town-house-lot-77-blk-22-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-from-tranche-opa5910011-1st-auc/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -59,13 +62,14 @@
     "price_php": 1167700.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "902022023370",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250610036-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-id-858202412130010-foreclosed-town-house-lot-61-blk-24-phase-2-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-from-tranche-opa5910011/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -76,13 +80,14 @@
     "price_php": 1207500.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "902022023669",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250819004-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-town-house-lot-84-blk-27-deca-homes-sta-barbara-residences-economic-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-mar-30-2026-apr-10-2026-occupied/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -93,13 +98,14 @@
     "price_php": 1224500.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "090-2022023553",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250609008-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-id-858202412120050-foreclosed-town-house-lot-60-blk-26-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-from-tranche-opa5910011-1st-auc/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -110,13 +116,14 @@
     "price_php": 1226340.0,
     "lot_area_sqm": 48.0,
     "floor_area_sqm": 55.0,
-    "tct": null,
+    "tct": "090-2020002774",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pavia%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920251103099-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202412280037-lot-13-blk-17-phase-ii-deca-homes-pavia-pandac-pavia-iloilo-5001-2nd-public-auction-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/20"
+    "posted_date": "2026/07/20",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -127,13 +134,14 @@
     "price_php": 1304700.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "090-2022022898",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250911021-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-town-house-lot-43-blk-19-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-mar-30-2026-apr-10-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -144,13 +152,14 @@
     "price_php": 1307200.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "090-2022023195",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250912035-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-town-house-lot-70-blk-22-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-mar-30-2026-apr-10-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -161,13 +170,14 @@
     "price_php": 1308200.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "090-2022024008",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920260708052-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606250018-lot-69-blk-31-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -178,13 +188,14 @@
     "price_php": 1310700.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
-    "tct": null,
+    "tct": "090-2022016775",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920260708029-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606250004-lot-34-blk-18-deca-homes-sta-barbara-residences-socialized-phase-1-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -195,13 +206,14 @@
     "price_php": 1365900.0,
     "lot_area_sqm": 80.0,
     "floor_area_sqm": 35.1,
-    "tct": null,
+    "tct": "090-2016009508",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pavia%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920260708024-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606260005-lot-6-blk-43-deca-homes-pavia-resort-residences-jibao-an-pavia-iloilo-5001-1st-public-auction-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -212,13 +224,14 @@
     "price_php": 1867400.0,
     "lot_area_sqm": 52.0,
     "floor_area_sqm": 51.0,
-    "tct": null,
+    "tct": "090-2023011755",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Leganes%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250430020-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-id-858202503250024-foreclosed-town-house-lot-32-blk-8-deca-homes-leganes-residences-site-3-guihaman-leganes-iloilo-5003-tranche-opa5910008-1st-auction-on-june-09-2025/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -229,13 +242,14 @@
     "price_php": 2031700.0,
     "lot_area_sqm": 52.0,
     "floor_area_sqm": 51.0,
-    "tct": null,
+    "tct": "090-2024012017",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Leganes%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920260708019-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606250029-lot-67-blk-29-deca-homes-leganes-residences-site-5-guinobatan-leganes-iloilo-5003-1st-public-auction-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -246,13 +260,14 @@
     "price_php": 296000.0,
     "lot_area_sqm": 80.0,
     "floor_area_sqm": null,
-    "tct": null,
+    "tct": "097-2022001880",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920240926004-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-805823102500003-lot-3-blk-21-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -269,7 +284,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Sigma%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/maybank-foreclosed-property-at-lot-2365-d-sitio-san-isidro-brgy-mianay-sigma-capiz-agricultural-lot-not-in-banks-possession-occupied/",
-    "posted_date": "2026/04/11"
+    "posted_date": "2026/04/11",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -286,7 +302,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/04/0289205_pic001-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-vacant-lot-for-sale-in-roxas-city-capiz-an-0289205/",
-    "posted_date": "2026/07/01"
+    "posted_date": "2026/07/01",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -303,7 +320,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/04/0289172_pic001-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bfs-foreclosed-lot-only-at-blk-4-lot-2-alley-1-paragon-village-dinginan-roxas-city-capiz-occupied/",
-    "posted_date": "2026/07/01"
+    "posted_date": "2026/07/01",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -320,7 +338,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/04/0039835_pic001-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-vacant-lot-for-sale-in-roxas-city-capiz-an-0039835/",
-    "posted_date": "2026/07/01"
+    "posted_date": "2026/07/01",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -337,7 +356,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/04/0045194_pic001-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-vacant-lot-for-sale-in-roxas-city-capiz-an-0045194/",
-    "posted_date": "2026/07/01"
+    "posted_date": "2026/07/01",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -354,7 +374,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/04/0065404_pic001-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-vacant-lot-for-sale-in-roxas-city-capiz-an-0065404/",
-    "posted_date": "2026/07/01"
+    "posted_date": "2026/07/01",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -371,7 +392,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/04/0045187_pic001-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-vacant-lot-for-sale-in-roxas-city-capiz-an-0045187/",
-    "posted_date": "2026/07/01"
+    "posted_date": "2026/07/01",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -388,7 +410,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-lot-1157-f-5-along-unnamed-road-mabasa-subdivision-barangay-dayao-roxas-city-capiz-residential-lot-with-illegal-occupants-not-in-banks-possession-occupied/",
-    "posted_date": "2026/04/11"
+    "posted_date": "2026/04/11",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -399,13 +422,14 @@
     "price_php": 1044000.0,
     "lot_area_sqm": 360.0,
     "floor_area_sqm": null,
-    "tct": null,
+    "tct": "097-2012001514",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920241025021-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-lot-only-lot-934-b-1-j-4-olano-subdivision-banica-roxas-city-capiz-5800-negotiated-sale-on-mar-30-2026-apr-10-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -416,13 +440,14 @@
     "price_php": 1058500.0,
     "lot_area_sqm": 365.0,
     "floor_area_sqm": null,
-    "tct": null,
+    "tct": "097-2019000132",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920240830002-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-lot-only-lot-933-a-6-olano-subd-mongpong-roxas-city-capiz-5800-negotiated-sale-on-mar-30-2026-apr-10-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -439,7 +464,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Panay%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/04/0865062_pic001-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bfs-foreclosed-lot-only-at-blk-16-lot-9-road-lot-2-fuentes-subd-baybay-panay-capiz-occupied/",
-    "posted_date": "2026/07/01"
+    "posted_date": "2026/07/01",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -450,13 +476,14 @@
     "price_php": 1123200.0,
     "lot_area_sqm": 160.0,
     "floor_area_sqm": null,
-    "tct": null,
+    "tct": "097-2026000689",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920260406008-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202503270046-lot-2-blk-4-costa-verde-subd-cagay-roxas-city-capiz-5800-2nd-public-auction-on-jul-27-2026-jul-31-2026/",
-    "posted_date": "2026/07/20"
+    "posted_date": "2026/07/20",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -467,13 +494,14 @@
     "price_php": 1191903.0,
     "lot_area_sqm": 491.0,
     "floor_area_sqm": null,
-    "tct": null,
+    "tct": "097-2025001558",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250630046-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-lot-only-lot-939-a-4-blk-psd-06-058801-olano-subd-mongpong-roxas-city-capiz-5800-negotiated-sale-on-mar-30-2026-apr-10-2026/",
-    "posted_date": "2026/07/19"
+    "posted_date": "2026/07/19",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -490,7 +518,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-at-lot-2203-lot-2205-sitio-sandaanon-brgy-casanayan-pilar-capiz-lot-area-14312-00-sqm-no-possession/",
-    "posted_date": "2026/07/17"
+    "posted_date": "2026/07/17",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -501,13 +530,14 @@
     "price_php": 1855920.0,
     "lot_area_sqm": 421.8,
     "floor_area_sqm": null,
-    "tct": null,
+    "tct": "(T-56731) 097-2025000259",
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920260406010-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-lot-only-lot-15-blk-4-homesite-village-subdivision-lawa-an-roxas-city-capiz-5800-1st-public-auction-on-may-25-2026-may-29-2026/",
-    "posted_date": "2026/07/13"
+    "posted_date": "2026/07/13",
+    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "foreclosurephilippines",
@@ -524,7 +554,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Dumarao%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/maybank-foreclosed-property-at-lot-289-bungsuan-dumarao-capiz-agricultural-lot-with-illegal-occupants-not-in-banks-possession-occupied/",
-    "posted_date": "2026/04/11"
+    "posted_date": "2026/04/11",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -541,7 +572,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Roxas+City%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-lot-25-blk-34-jackson-street-westlake-3-tanque-roxas-city-capiz-residential-townhouse-unit-with-illegal-occupants-not-in-banks-possession-occupied/",
-    "posted_date": "2026/04/11"
+    "posted_date": "2026/04/11",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -558,7 +590,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pontevedra%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-barangay-jolongajog-pontevedra-capiz-two-parcels-of-adjacent-residential-lots-with-illegal/",
-    "posted_date": "2026/04/11"
+    "posted_date": "2026/04/11",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -575,7 +608,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/v-a-1-1-1-1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-foreclosed-agricultural-vacant-lot-lot-459-brgy-binaobaoan-pilar-capiz-interior-for-sale/",
-    "posted_date": "2026/07/16"
+    "posted_date": "2026/07/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -592,7 +626,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Dumarao%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-dumarao-capiz-province-agricultural-lot-landlocked-and-not-in-banks-possession-occupied/",
-    "posted_date": "2026/04/11"
+    "posted_date": "2026/04/11",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -609,7 +644,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Tapaz%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-agricultural-lot-in-lot-1-lot-2-brgy-katipunan-tapaz-capiz-updated-as-of-q2-2018/",
-    "posted_date": "2026/07/17"
+    "posted_date": "2026/07/17",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -626,7 +662,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pontevedra%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-residential-lot-with-improvement-in-l247-b-1-poblacion-pontevedra-capiz-updated-as-of-q2-2018/",
-    "posted_date": "2026/07/17"
+    "posted_date": "2026/07/17",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -643,7 +680,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/capiz1-1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-foreclosed-agricultural-vacant-lot-lot-384-brgy-binaobaoan-pilar-capiz-interior-for-sale/",
-    "posted_date": "2026/07/16"
+    "posted_date": "2026/07/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -660,7 +698,476 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/v-a-1-7-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-agricultural-vacant-lot-lot-382-brgy-binaobaoan-pilar-capiz-interior-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/07/16"
+    "posted_date": "2026/07/16",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Banga, Aklan",
+    "province": "Aklan",
+    "price_php": 90170.0,
+    "lot_area_sqm": 663.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Banga%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/54673.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-no-8212-sitio-balit-2-sigcay-banga-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Banga, Aklan",
+    "province": "Aklan",
+    "price_php": 264730.0,
+    "lot_area_sqm": 1151.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Banga%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/52453-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-no-608-brgy-cupang-banga-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Libacao, Aklan",
+    "province": "Aklan",
+    "price_php": 387840.0,
+    "lot_area_sqm": 12928.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Libacao%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/52368-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-no-154-pt-sitio-gotusan-barangay-ortega-libacao-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Nabas, Aklan",
+    "province": "Aklan",
+    "price_php": 409920.0,
+    "lot_area_sqm": 3660.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nabas%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/55949-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-agricultural-with-improvement-lot-no-629-pt-brgy-alimbo-baybay-nabas-aklan-for-public-auction-occupied/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 447500.0,
+    "lot_area_sqm": 2009.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/53093-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-no-2813-cad-704-d-barangay-napaan-malay-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Numancia, Aklan",
+    "province": "Aklan",
+    "price_php": 848000.0,
+    "lot_area_sqm": 2120.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Numancia%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/53450-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-no-6435-barangay-albasan-numancia-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "New Washington, Aklan",
+    "province": "Aklan",
+    "price_php": 944460.0,
+    "lot_area_sqm": 792.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=New+Washington%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/53087-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-agricultural-with-improvement-at-lot-no-10792-pt-brgy-poblacion-new-washington-aklan-for-negotiated-sale-occupied/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Batan, Aklan",
+    "province": "Aklan",
+    "price_php": 1000160.0,
+    "lot_area_sqm": 6251.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Batan%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/51956-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-agricultural-vacant-lot-at-lot-no-4739-sitio-baybay-brgy-ipil-batan-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Libacao, Aklan",
+    "province": "Aklan",
+    "price_php": 1380000.0,
+    "lot_area_sqm": 45974.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Libacao%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-agricultural-lot-in-lot-611-brgy-magugma-libacao-aklan-updated-as-of-q2-2018/",
+    "posted_date": "2026/07/17",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Makato, Aklan",
+    "province": "Aklan",
+    "price_php": 1798000.0,
+    "lot_area_sqm": 2900.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Makato%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/51953-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-agricultural-with-improvement-at-lot-no-2356-brgy-cayangwan-makato-aklan-for-negotiated-sale-occupied/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Kalibo, Aklan",
+    "province": "Aklan",
+    "price_php": 1804000.0,
+    "lot_area_sqm": 322.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kalibo%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-two-storey-residential-bldg-in-l2-c-19-b-vizcarra-subd-brgy-andagao-kalibo-aklan-updated-as-of-q2-2018/",
+    "posted_date": "2026/07/17",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Balete, Aklan",
+    "province": "Aklan",
+    "price_php": 2617120.0,
+    "lot_area_sqm": 23792.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Balete%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/53091-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-agricultural-with-improvement-at-lot-no-1723-pt-brgy-arcangel-balete-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Nabas, Aklan",
+    "province": "Aklan",
+    "price_php": 2720920.0,
+    "lot_area_sqm": 7533.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nabas%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/53443-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-no-3398-cad-758-d-barangay-buenafortuna-nabas-aklan-for-negotiated-sale/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Balete, Aklan",
+    "province": "Aklan",
+    "price_php": 3710360.0,
+    "lot_area_sqm": 22833.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Balete%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/52153-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-agricultural-with-improvement-at-lot-no-1363-pt-barangay-cortes-balete-aklan-for-negotiated-sale-occupied/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Nabas, Aklan",
+    "province": "Aklan",
+    "price_php": 3795000.0,
+    "lot_area_sqm": 8625.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nabas%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55101-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-4448-along-sitio-agpusong-brgy-nagustan-nabas-for-public-auction-on-february-26-2026/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Kalibo, Aklan",
+    "province": "Aklan",
+    "price_php": 4048000.0,
+    "lot_area_sqm": 1012.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kalibo%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-residential-vacant-lot-in-l-f-2-d-3-vizcarra-subd-brgy-andagao-kalibo-aklan-updated-as-of-q2-2018/",
+    "posted_date": "2026/07/17",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 6284000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 27.2,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-unit-4061-4th-floor-savoy-hotel-boracay-new-coast-drive-yapak-malay-aklan-condotel-unit-not-in-banks-possession-occupied/",
+    "posted_date": "2026/04/11",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 6318000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 26.0,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/maybank-foreclosed-property-at-unit-2025-2nd-floor-savoy-hotel-boracay-newcoast-drive-boracay-newcoast-barangay-yapak-boracay-island-malay-aklan-condotel-unit-vacant/",
+    "posted_date": "2026/04/11",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 6353000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 27.5,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-unit-6046-6th-floor-savoy-hotel-boracay-new-coast-drive-yapak-malay-aklan-residential-condominium-unit-not-in-banks-possession-occupied/",
+    "posted_date": "2026/04/11",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 6502000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 26.9,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/maybank-foreclosed-property-at-unit-5088-5th-floor-savoy-hotel-boracay-newcoast-drive-boracay-newcoast-barangay-yapak-boracay-island-malay-aklan-residential-condominium-unit-with-illegal-o/",
+    "posted_date": "2026/04/11",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 6565000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 27.5,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-unit-no-6009-6th-floor-savoy-hotel-boracay-new-coast-drive-barangay-yapak-boracay-island-malay-aklan-condotel-not-in-banks-possession-occupied/",
+    "posted_date": "2026/04/11",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 7273000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 25.9,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-unit-3007-3rd-floor-belmont-hotel-boracay-cluster-2-barangay-yapak-malay-aklan-condotel-unit-with-1-bedroom-and-balcony-not-in-banks-possession-occupied/",
+    "posted_date": "2026/04/11",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Libacao, Aklan",
+    "province": "Aklan",
+    "price_php": 10586000.0,
+    "lot_area_sqm": 11506.25,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Libacao%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-residential-vacant-lot-in-lot-804-k-13-brgy-julita-libacao-aklan-updated-as-of-q2-2018/",
+    "posted_date": "2026/07/17",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Malay, Aklan",
+    "province": "Aklan",
+    "price_php": 13042000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 52.0,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Malay%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2017/10/maybank-foreclosed-properties-for-sale-featured.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-unit-no-5060-5th-floor-savoy-hotel-boracay-new-coast-drive-boracay-newcoast-barangay-yapak-boracay-island-malay-aklan-condotel-unit-not-in-banks-possession/",
+    "posted_date": "2026/04/11",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "New Washington, Aklan",
+    "province": "Aklan",
+    "price_php": 15948000.0,
+    "lot_area_sqm": 9380.49,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=New+Washington%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2022/06/bank-of-commerce-foreclosed-properties-2022-v1-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/bank-of-commerce-foreclosed-property-residential-vacant-lot-in-lot-2-a-psd-06-000471-brgy-dumaguit-new-washington-aklan-updated-as-of-q2-2018/",
+    "posted_date": "2026/07/17",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "BDO",
+    "property_type": "RESIDENTIAL",
+    "location_text": "Kalibo, Aklan",
+    "province": "Aklan",
+    "price_php": 17308200.0,
+    "lot_area_sqm": 2172.0,
+    "floor_area_sqm": 445.0,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kalibo%2C+Aklan%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/r-2024002246-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lots-6488-and-6489-jaime-cardinal-sin-avenue-brgy-mabilo-kalibo-aklan-pending-consolidation-first-come-first-served-negotiated-sale/",
+    "posted_date": "2026/07/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -677,7 +1184,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Libertad%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55572-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-no-275-barangay-cubay-libertad-for-public-auction-on-february-26-2026/",
-    "posted_date": "2026/03/29"
+    "posted_date": "2026/03/29",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -694,7 +1202,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Tibiao%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/55645-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-10036-brgy-salazar-tibiao-antique-for-public-auction/",
-    "posted_date": "2026/03/29"
+    "posted_date": "2026/03/29",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -711,7 +1220,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Libertad%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/52157-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-agricultural-with-improvement-at-lot-no-1936-barangay-san-roque-libertad-antique-for-negotiated-sale-occupied/",
-    "posted_date": "2026/03/29"
+    "posted_date": "2026/03/29",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -728,7 +1238,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Barbaza%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/55863-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-no-2231-cad-818-d-c-24-brgy-capoyu-an-barbaza-antique-for-public-auction/",
-    "posted_date": "2026/03/29"
+    "posted_date": "2026/03/29",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -745,7 +1256,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Barbaza%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/55866-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-no-2232-cad-818-d-c-24-brgy-capoyu-an-barbaza-antique-for-public-auction/",
-    "posted_date": "2026/03/29"
+    "posted_date": "2026/03/29",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -762,7 +1274,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Barbaza%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/55871-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-no-2233-cad-818-d-c-24-brgy-capoyu-an-barbaza-antique-for-public-auction-occupied/",
-    "posted_date": "2026/03/29"
+    "posted_date": "2026/03/29",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -779,7 +1292,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Patnongon%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2025/10/bsp-foreclosed-properties-2025-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bsp-foreclosed-agricultural-rice-land-at-lot-8184-brgy-salaguiawan-patnongon-antique-for-negotiated-sale-lot-area-10747-00-sqm/",
-    "posted_date": "2026/03/16"
+    "posted_date": "2026/03/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -796,7 +1310,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Patnongon%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2025/10/bsp-foreclosed-properties-2025-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bsp-foreclosed-residential-house-lot-at-lot-180-brgy-poblacion-patnongon-antique-for-negotiated-sale-lot-area-440-00-sqm/",
-    "posted_date": "2026/03/16"
+    "posted_date": "2026/03/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -813,7 +1328,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Patnongon%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2025/10/bsp-foreclosed-properties-2025-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bsp-foreclosed-residential-house-lot-at-lot-218-brgy-poblacion-patnongon-antique-for-negotiated-sale-lot-area-409-00-sqm/",
-    "posted_date": "2026/03/16"
+    "posted_date": "2026/03/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -830,7 +1346,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=San+Remigio%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2025/10/bsp-foreclosed-properties-2025-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bsp-foreclosed-residential-vacant-lot-at-lot-25-cabrillos-stpoblacion-san-remigio-antique-for-negotiated-sale-lot-area-1220-33-sqm/",
-    "posted_date": "2026/03/16"
+    "posted_date": "2026/03/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -847,7 +1364,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Patnongon%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2025/10/bsp-foreclosed-properties-2025-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bsp-foreclosed-agricultural-rice-land-at-lot-8197-brgy-salaguiawan-patnongon-antique-for-negotiated-sale-lot-area-27780-00-sqm/",
-    "posted_date": "2026/03/16"
+    "posted_date": "2026/03/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -864,7 +1382,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Belison%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2025/10/bsp-foreclosed-properties-2025-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bsp-foreclosed-residential-house-floor-area-30-00-sqm-4/",
-    "posted_date": "2026/03/16"
+    "posted_date": "2026/03/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -881,7 +1400,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Hamtic%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/SILAVA-ZOSIMOLUISA_T-23213-1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-lot-8490-barangay-buhang-hamtic-antique/",
-    "posted_date": "2026/02/16"
+    "posted_date": "2026/02/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -898,7 +1418,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Sibalom%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/VILLAGRACIA-MANUEL_N-661-1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-h-114453cad-lot-no-8829-barangay-inabasansibalom-antique/",
-    "posted_date": "2026/02/16"
+    "posted_date": "2026/02/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -915,7 +1436,8 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Patnongon%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2025/10/bsp-foreclosed-properties-2025-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bsp-foreclosed-agricultural-rice-land-at-lot-68cuyapiao-patnongon-antique-for-negotiated-sale/",
-    "posted_date": "2026/03/16"
+    "posted_date": "2026/03/16",
+    "branch": null
   },
   {
     "source": "foreclosurephilippines",
@@ -932,6 +1454,205 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Sibalom%2C+Antique%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/ALVIOR-BONIFACIO_T-23552-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-lot-8288-barangay-cabladansibalom-antique/",
-    "posted_date": "2026/02/16"
+    "posted_date": "2026/02/16",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential",
+    "location_text": "Nueva Valencia, Guimaras",
+    "province": "Guimaras",
+    "price_php": 717260.0,
+    "lot_area_sqm": 586.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nueva+Valencia%2C+Guimaras%2C+Philippines",
+    "image_url": null,
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-no-5151-f-psd-063033-026055-brgy-poblacion-nueva-valencia-guimaras-for-public-auction-occupied/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Nueva Valencia, Guimaras",
+    "province": "Guimaras",
+    "price_php": 724190.0,
+    "lot_area_sqm": 6466.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nueva+Valencia%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55314-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-4052-psd-775-barangay-canhawan-nueva-valencia-for-public-auction-on-february-26-2026/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Buenavista, Guimaras",
+    "province": "Guimaras",
+    "price_php": 990000.0,
+    "lot_area_sqm": 15000.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Buenavista%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55316-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-agricultural-vacant-lot-lot-2-b-psd-06-031244-sitio-sinapsapan-barangay-east-valencia-buenavista-for-public-auction-on-february-26-2026/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential",
+    "location_text": "Nueva Valencia, Guimaras",
+    "province": "Guimaras",
+    "price_php": 1059190.0,
+    "lot_area_sqm": 939.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nueva+Valencia%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/56206-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-400-gss-063033-000024-brgy-poblacion-nueva-valencia-guimaras-for-public-auction-occupied/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential",
+    "location_text": "Nueva Valencia, Guimaras",
+    "province": "Guimaras",
+    "price_php": 1344000.0,
+    "lot_area_sqm": 1245.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nueva+Valencia%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55425-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-532-h-7-psd-06-035974-brgy-concordia-nueva-valencia-for-public-auction-on-february-26-2026/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Nueva Valencia, Guimaras",
+    "province": "Guimaras",
+    "price_php": 2216520.0,
+    "lot_area_sqm": 13100.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nueva+Valencia%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/55913-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-agricultural-with-improvement-lot-2142-pls-775-brgy-napandong-nueva-valencia-guimaras-for-public-auction-occupied/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "San Lorenzo, Guimaras",
+    "province": "Guimaras",
+    "price_php": 2753090.0,
+    "lot_area_sqm": 48131.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=San+Lorenzo%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/56217-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-4700-bpsd-06-043391-barangay-sapal-san-lorenzo-guimaras-for-public-auction/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Buenavista, Guimaras",
+    "province": "Guimaras",
+    "price_php": 3750000.0,
+    "lot_area_sqm": 50000.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Buenavista%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55427-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-533-b-psd-06-039334-brgy-salvacion-buenavista-for-public-auction-on-february-26-2026/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Agricultural",
+    "location_text": "Jordan, Guimaras",
+    "province": "Guimaras",
+    "price_php": 4116440.0,
+    "lot_area_sqm": 30033.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Jordan%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55672-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-with-improvement-lot-no-453-a-psd-060-401455-ar-brgy-poblacion-jordan-for-public-auction-on-february-26-2026/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential",
+    "location_text": "Buenavista, Guimaras",
+    "province": "Guimaras",
+    "price_php": 4245170.0,
+    "lot_area_sqm": 2998.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Buenavista%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/02/55676-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-793-a-brgy-san-isidro-buenavista-for-public-auction-on-february-26-2026/",
+    "posted_date": "2026/03/29",
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "PDIC",
+    "property_type": "Residential/Agricultural",
+    "location_text": "Nueva Valencia, Guimaras",
+    "province": "Guimaras",
+    "price_php": 4702370.0,
+    "lot_area_sqm": 44530.0,
+    "floor_area_sqm": null,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Nueva+Valencia%2C+Guimaras%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/03/55910-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-agricultural-with-improvement-lot-4666-pls-775-brgy-san-antonio-nueva-valencia-guimaras-for-public-auction/",
+    "posted_date": "2026/03/29",
+    "branch": null
   }
 ]

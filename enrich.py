@@ -142,8 +142,14 @@ def _now_iso():
 
 
 def _apply_cache_entry(record, entry):
-    record["branch"] = entry.get("branch")
-    record["tct"] = entry.get("tct")
+    """Additive only: enrichment may ADD branch/tct to a record, never destroy
+    a value the base scrape already set. A failed/capped/parked fetch yields a
+    None branch/tct in the cache entry; applying that must not overwrite a
+    pre-existing base-schema value. So only copy non-None cache values."""
+    if entry.get("branch") is not None:
+        record["branch"] = entry["branch"]
+    if entry.get("tct") is not None:
+        record["tct"] = entry["tct"]
 
 
 def enrich_listings(records, cache, fetch_detail, cap=12, now_iso=None):
@@ -186,9 +192,8 @@ def enrich_listings(records, cache, fetch_detail, cap=12, now_iso=None):
             if n_fetched >= cap:
                 if entry is not None:
                     _apply_cache_entry(rec, entry)
-                else:
-                    rec["branch"] = None
-                    rec["tct"] = None
+                # No cache entry and over cap: leave the record's existing
+                # branch/tct untouched (additive-only — never null out base data).
                 out_records.append(rec)
                 continue
 
