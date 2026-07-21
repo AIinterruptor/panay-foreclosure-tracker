@@ -1,0 +1,25 @@
+{
+  "last_run_utc": "2026-07-21T07:35:13.127525+00:00",
+  "last_run_manila": "2026-07-21 15:35 UTC+08:00",
+  "total": 76,
+  "per_source": {
+    "foreclosurephilippines": {
+      "count": 101,
+      "ok": true,
+      "error": null,
+      "stale": false
+    },
+    "pagibig_opa": {
+      "count": 0,
+      "ok": true,
+      "error": null,
+      "stale": true
+    },
+    "metrobank": {
+      "count": 1,
+      "ok": true,
+      "error": null,
+      "stale": false
+    }
+  }
+}
