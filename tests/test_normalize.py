@@ -1,4 +1,4 @@
-from normalize import RECORD_KEYS, maps_url, to_float, normalize
+from normalize import RECORD_KEYS, maps_url, to_float, normalize, map_seller
 
 def test_maps_url_encodes_address_and_appends_country():
     u = maps_url("Lot 5 Blk 3, Brgy Pavia, Iloilo")
@@ -47,3 +47,14 @@ def test_normalize_passes_through_branch_when_provided():
 def test_normalize_defaults_branch_to_none_when_absent():
     rec = normalize({"location_text": "Jordan, Guimaras"})
     assert rec["branch"] is None
+
+def test_map_seller_maps_known_bank_brands():
+    assert map_seller("Buena Mano") == "BPI (Buena Mano)"
+    assert map_seller("BDO Assets for Sale") == "BDO"
+    assert map_seller("PNB") == "PNB"
+
+def test_map_seller_passes_through_unknown_broker():
+    assert map_seller("Tilda Villanueva") == "Tilda Villanueva"
+
+def test_map_seller_defaults_to_lamudi_listing_when_none():
+    assert map_seller(None) == "Lamudi listing"
