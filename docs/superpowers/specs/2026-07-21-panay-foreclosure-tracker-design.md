@@ -68,7 +68,13 @@ tct              # title number if available (Metrobank), else null
 sale_type        # public auction stage / negotiated sale, if known
 auction_date     # if known, else null
 maps_url         # Google Maps search link (see below)
+image_url        # listing photo URL if the source provides one, else null
 ```
+
+- **`image_url`** is the listing's photo when the source exposes one (foreclosurephilippines
+  and Metrobank cards often carry a thumbnail; Pag-IBIG OPA usually does not). It is a
+  passthrough string — no coercion. The editorial frontend uses it as the card's photo
+  plate; a null value falls back to a typographic plate so photoless cards still look intentional.
 
 - **`maps_url`** = `https://www.google.com/maps/search/?api=1&query=` + URL-encoded
   (`location_text` + `", Philippines"`). No API key, no cost.
@@ -81,19 +87,37 @@ maps_url         # Google Maps search link (see below)
   - `data/listings.csv` — same data, portable.
   - `data/meta.json` — `{ last_run_utc, last_run_manila, total, per_source: {name: {count, ok, error}} }`.
 
-### 3. Frontend (`docs/` → GitHub Pages)
+### 3. Frontend (`docs/` → GitHub Pages) — "Panay Ledger" editorial showcase
 
-Single static `docs/index.html` + vanilla JS (no framework, no build step):
+Single static `docs/index.html` + vanilla JS (no framework, no build step). An
+editorial property showcase, not a bare table — designed to read like a deed ledger.
 
+**Visual direction:**
+- **Palette:** archival ink `#14261f`, bone paper `#F2EDE1`, brass/ochre accent `#B8894A`,
+  clay `#9C4A2F` (price emphasis), slate `#5A6B63` (metadata). Deliberately NOT the
+  cream+terracotta / acid-green AI defaults.
+- **Type:** high-contrast serif display (prices, province headers) + humanist sans body +
+  mono utility face for register data (TCT numbers, ₱/sqm, auction dates). Web fonts
+  self-hostable or from a font CDN; degrade gracefully to system serif/sans/mono.
+- **Signature — the "title card":** each listing is a deed-like card — province eyebrow,
+  large serif price, TCT set in mono like a stamped reference, a framed **photo plate**
+  (`image_url`), and a **"→ MAP" seal** linking to `maps_url`. Photoless cards get a
+  typographic plate (province + lot area set large on brass) so they never look broken.
+- **"Deal of the Cycle" lead:** a full-width feature at the top highlighting the lowest
+  ₱/sqm lot across the current inventory — the editorial hero.
+
+**Behavior:**
 - Fetches `../data/listings.json` and `../data/meta.json` client-side.
-- **Sortable/filterable table:** filter by province, seller, property type, price range;
-  free-text search box.
-- **Location cell is a link** → opens `maps_url` in a new tab.
-- **Header:** total count · last-updated in Manila time · per-source counts ·
-  a standing **coverage note** ("Guimaras / Aklan / Antique inventory is naturally thin —
-  often single digits; Iloilo carries most listings").
+- **Filters:** province, seller, property type, price range; free-text search. Sort by
+  price or ₱/sqm.
+- Each card's **map seal** opens `maps_url` in a new tab.
+- **Masthead:** total count · last-updated in Manila time · per-source counts · a standing
+  **coverage note** ("Guimaras / Aklan / Antique inventory is naturally thin — often single
+  digits; Iloilo carries most listings").
 - **Staleness banner:** if `meta.json` shows a source errored on the last run, a small
   non-blocking banner flags which source is stale.
+- **Quality floor:** responsive to mobile, visible keyboard focus, `prefers-reduced-motion`
+  respected, images lazy-loaded with a graceful fallback on broken URLs.
 
 ## Automation (`.github/workflows/refresh.yml`)
 

@@ -4,7 +4,7 @@ from urllib.parse import quote_plus
 RECORD_KEYS = [
     "source", "seller", "property_type", "location_text", "province",
     "price_php", "lot_area_sqm", "floor_area_sqm", "tct",
-    "sale_type", "auction_date", "maps_url",
+    "sale_type", "auction_date", "maps_url", "image_url",
 ]
 _NUMERIC = {"price_php", "lot_area_sqm", "floor_area_sqm"}
 

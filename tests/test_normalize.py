@@ -21,3 +21,9 @@ def test_normalize_fills_all_keys_and_coerces():
     assert rec["price_php"] == 5020000.0
     assert rec["tct"] is None
     assert rec["maps_url"].endswith("Oton%2C+Iloilo%2C+Philippines")
+    assert rec["image_url"] is None  # defaults to None when source has no photo
+
+def test_normalize_passes_through_image_url():
+    rec = normalize({"location_text": "Jordan, Guimaras",
+                     "image_url": "https://example.com/lot.jpg"})
+    assert rec["image_url"] == "https://example.com/lot.jpg"
