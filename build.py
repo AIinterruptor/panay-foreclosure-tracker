@@ -136,6 +136,23 @@ def main():
     merged = merge_with_prior(fresh_by_source, prior, status)
     records = sort_records(dedup(merged))
 
+    # Detail-page enrichment (bank branch + TCT number), keyed by source_url and
+    # cached across runs. Runs strictly AFTER records are finalized and BEFORE
+    # anything is written, wrapped so a total enrichment failure can never
+    # compromise the base pipeline's output -- listings.json/csv/meta.json must
+    # still get written with the base data even if this whole block throws.
+    try:
+        from enrich import load_cache, save_cache, enrich_listings, playwright_fetch_detail
+        cache_path = DATA / "detail_cache.json"
+        cache = load_cache(cache_path)
+        records, cache, n = enrich_listings(
+            records, cache, playwright_fetch_detail, cap=12,
+            now_iso=datetime.now(timezone.utc).isoformat())
+        save_cache(cache_path, cache)
+        print(f"Enriched: {n} detail fetches this run")
+    except Exception as e:
+        print(f"Enrichment skipped (non-fatal): {e}")
+
     (DATA / "listings.json").write_text(
         json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
     with (DATA / "listings.csv").open("w", newline="", encoding="utf-8") as f:

@@ -39,3 +39,11 @@ def test_normalize_defaults_source_url_and_posted_date_to_none_when_absent():
     rec = normalize({"location_text": "Jordan, Guimaras"})
     assert rec["source_url"] is None
     assert rec["posted_date"] is None
+
+def test_normalize_passes_through_branch_when_provided():
+    rec = normalize({"location_text": "Jordan, Guimaras", "branch": "BACOLOD BRANCH"})
+    assert rec["branch"] == "BACOLOD BRANCH"
+
+def test_normalize_defaults_branch_to_none_when_absent():
+    rec = normalize({"location_text": "Jordan, Guimaras"})
+    assert rec["branch"] is None

@@ -53,7 +53,7 @@ def test_parse_maps_both_primary_and_alternate_key_variants():
         assert isinstance(r["price_php"], float)
         assert r["location_text"]
         assert set(r.keys()) == set(RECORD_KEYS)
-        assert len(RECORD_KEYS) == 15
+        assert len(RECORD_KEYS) == 16  # 15 + branch (detail-page enrichment)
 
     primary, alternate = recs
     assert primary["price_php"] == 1234567.89
