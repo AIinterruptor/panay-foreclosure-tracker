@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Panay Ledger — Foreclosed Property Register</title>
+<meta name="description" content="A live register of foreclosed and acquired-asset property across Panay island and Guimaras.">
+<style>
+  :root{
+    --paper:#F3EEE3; --paper-2:#EBE4D4; --ink:#16261E; --ink-soft:#33463B;
+    --brass:#A9791F; --brass-deep:#8A6113; --clay:#9E3F24; --slate:#5C6B62;
+    --line:#D8CFBA; --line-2:#C9BE9F; --card:#FBF8F0;
+    --ok:#3f7d4e; --warn:#9a6a12;
+    --shadow:0 1px 0 rgba(22,38,30,.04), 0 12px 30px -18px rgba(22,38,30,.35);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans:"Optima","Gill Sans","Gill Sans MT",Corbel,Avenir,system-ui,sans-serif;
+    --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono","Roboto Mono",Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#14201A; --paper-2:#182A22; --ink:#EAE3D2; --ink-soft:#C3BBA6;
+      --brass:#D6A94E; --brass-deep:#E7BE68; --clay:#E08A5B; --slate:#93A297;
+      --line:#26362E; --line-2:#33463B; --card:#1A2820;
+      --ok:#7bbf8a; --warn:#d6a94e;
+      --shadow:0 1px 0 rgba(0,0,0,.2), 0 18px 40px -20px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#F3EEE3; --paper-2:#EBE4D4; --ink:#16261E; --ink-soft:#33463B;
+    --brass:#A9791F; --brass-deep:#8A6113; --clay:#9E3F24; --slate:#5C6B62;
+    --line:#D8CFBA; --line-2:#C9BE9F; --card:#FBF8F0; --ok:#3f7d4e; --warn:#9a6a12;
+    --shadow:0 1px 0 rgba(22,38,30,.04), 0 12px 30px -18px rgba(22,38,30,.35);
+  }
+  :root[data-theme="dark"]{
+    --paper:#14201A; --paper-2:#182A22; --ink:#EAE3D2; --ink-soft:#C3BBA6;
+    --brass:#D6A94E; --brass-deep:#E7BE68; --clay:#E08A5B; --slate:#93A297;
+    --line:#26362E; --line-2:#33463B; --card:#1A2820; --ok:#7bbf8a; --warn:#d6a94e;
+    --shadow:0 1px 0 rgba(0,0,0,.2), 0 18px 40px -20px rgba(0,0,0,.7);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    line-height:1.5;font-size:16px;
+    background-image:radial-gradient(circle at 20% -10%,color-mix(in oklab,var(--brass) 6%,transparent),transparent 55%);
+  }
+  .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+  a{color:inherit}
+  ::selection{background:color-mix(in oklab,var(--brass) 35%,transparent)}
+
+  /* ---- Masthead ---- */
+  .masthead{border-bottom:3px double var(--line-2);padding:34px 0 18px}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+    color:var(--brass-deep);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  .kicker .est{color:var(--slate)}
+  h1.title{font-family:var(--serif);font-weight:600;font-size:clamp(38px,7vw,74px);
+    line-height:.94;letter-spacing:-.01em;margin:.18em 0 .1em;text-wrap:balance}
+  h1.title em{font-style:italic;color:var(--brass-deep)}
+  .dek{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:clamp(15px,2.2vw,19px);max-width:60ch}
+  .toggle{border:1px solid var(--line-2);background:var(--card);color:var(--ink);
+    font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    padding:7px 12px;border-radius:2px;cursor:pointer}
+  .toggle:hover{border-color:var(--brass)}
+
+  /* ---- Summary band ---- */
+  .band{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px;background:var(--line);border:1px solid var(--line);
+    margin:22px 0 8px;border-radius:3px;overflow:hidden}
+  .stat{background:var(--card);padding:16px 18px}
+  .stat .l{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+  .stat .v{font-family:var(--serif);font-size:clamp(24px,3.6vw,34px);line-height:1.05;margin-top:6px;font-variant-numeric:tabular-nums}
+  .stat .v small{font-size:.5em;color:var(--ink-soft);font-family:var(--mono);letter-spacing:.02em}
+  .stat.accent .v{color:var(--clay)}
+
+  .provrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 2px;
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--slate)}
+  .provrow b{color:var(--ink)}
+  .stale{display:inline-flex;align-items:center;gap:7px;background:color-mix(in oklab,var(--warn) 16%,var(--card));
+    border:1px solid color-mix(in oklab,var(--warn) 45%,var(--line));color:var(--warn);
+    font-family:var(--mono);font-size:11px;letter-spacing:.04em;padding:5px 10px;border-radius:2px}
+  .stale .dot{width:6px;height:6px;border-radius:50%;background:var(--warn)}
+
+  /* ---- Feature (Deal of the Cycle) ---- */
+  .feature{display:grid;grid-template-columns:1.15fr 1fr;gap:0;margin:26px 0 6px;
+    border:1px solid var(--line-2);border-radius:4px;overflow:hidden;background:var(--card);box-shadow:var(--shadow)}
+  .feature .plate{position:relative;min-height:320px;background:var(--paper-2)}
+  .feature .plate img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .feature .body{padding:30px 32px;display:flex;flex-direction:column;justify-content:center}
+  .feature .seal-eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass-deep)}
+  .feature h2{font-family:var(--serif);font-size:clamp(26px,3.6vw,40px);line-height:1.02;margin:.28em 0 .1em;font-weight:600;text-wrap:balance}
+  .feature .loc{font-family:var(--sans);color:var(--ink-soft);font-size:15px}
+  .feature .fprice{font-family:var(--serif);font-size:clamp(30px,4.6vw,48px);color:var(--clay);margin:.35em 0 0;font-variant-numeric:tabular-nums;line-height:1}
+  .feature .metaline{font-family:var(--mono);font-size:12px;letter-spacing:.03em;color:var(--slate);margin-top:12px;display:flex;gap:16px;flex-wrap:wrap}
+  .maplink{align-self:flex-start;margin-top:20px;display:inline-flex;align-items:center;gap:9px;
+    font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink);text-decoration:none;border:1px solid var(--ink);padding:10px 16px;border-radius:2px;
+    transition:background .15s,color .15s}
+  .maplink:hover{background:var(--ink);color:var(--paper)}
+  .maplink .seal{width:15px;height:15px;border:1.5px solid currentColor;border-radius:50%;
+    display:grid;place-items:center;font-size:9px}
+
+  /* ---- Controls ---- */
+  .controls{position:sticky;top:0;z-index:5;background:color-mix(in oklab,var(--paper) 92%,transparent);
+    backdrop-filter:blur(8px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    padding:12px 0;margin:30px 0 22px}
+  .controls .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .field{position:relative;display:flex;flex-direction:column;gap:0}
+  select,input[type=search]{font-family:var(--sans);font-size:14px;color:var(--ink);
+    background:var(--card);border:1px solid var(--line-2);border-radius:2px;padding:9px 12px;min-width:130px}
+  input[type=search]{min-width:200px;flex:1}
+  select:focus,input:focus{outline:2px solid var(--brass);outline-offset:1px;border-color:var(--brass)}
+  .count{font-family:var(--mono);font-size:12px;color:var(--slate);letter-spacing:.05em;margin-left:auto}
+  .count b{color:var(--ink)}
+
+  /* ---- Grid ---- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:20px;padding-bottom:10px}
+  .card{background:var(--card);border:1px solid var(--line-2);border-radius:4px;overflow:hidden;
+    display:flex;flex-direction:column;box-shadow:var(--shadow);transition:transform .16s,box-shadow .16s,border-color .16s}
+  .card:hover{transform:translateY(-3px);border-color:var(--brass);
+    box-shadow:0 1px 0 rgba(0,0,0,.05),0 22px 44px -22px rgba(22,38,30,.5)}
+  .plate{position:relative;aspect-ratio:16/10;background:var(--paper-2);overflow:hidden}
+  .plate img{width:100%;height:100%;object-fit:cover;display:block}
+  .plate .fallback{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+    padding:18px;background:
+      repeating-linear-gradient(135deg,transparent,transparent 11px,color-mix(in oklab,var(--brass) 8%,transparent) 11px,color-mix(in oklab,var(--brass) 8%,transparent) 12px),
+      linear-gradient(160deg,var(--paper-2),color-mix(in oklab,var(--brass) 12%,var(--paper-2)))}
+  .plate .fallback .fp{font-family:var(--serif);font-size:26px;line-height:1;color:var(--ink)}
+  .plate .fallback .fs{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--slate);margin-top:8px;text-transform:uppercase}
+  .prov-tag{position:absolute;top:10px;left:10px;font-family:var(--mono);font-size:10px;letter-spacing:.16em;
+    text-transform:uppercase;background:color-mix(in oklab,var(--ink) 82%,transparent);color:var(--paper);
+    padding:4px 9px;border-radius:2px}
+  .card .body{padding:15px 16px 16px;display:flex;flex-direction:column;gap:2px;flex:1}
+  .card .loc{font-family:var(--serif);font-size:19px;line-height:1.12;font-weight:600}
+  .card .sub{font-family:var(--mono);font-size:11px;letter-spacing:.03em;color:var(--slate);text-transform:uppercase;margin-top:2px}
+  .card .price{font-family:var(--serif);font-size:27px;color:var(--clay);margin-top:10px;font-variant-numeric:tabular-nums;line-height:1}
+  .card .ppsqm{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:3px;font-variant-numeric:tabular-nums}
+  .card .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:13px}
+  .seller-chip{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--brass-deep);border:1px solid var(--line-2);padding:3px 8px;border-radius:2px}
+  .cardmap{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+    text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:6px;
+    border-bottom:1px solid var(--brass);padding-bottom:1px}
+  .cardmap:hover{color:var(--clay);border-color:var(--clay)}
+  .cardmap .seal{width:13px;height:13px;border:1.4px solid currentColor;border-radius:50%;display:grid;place-items:center;font-size:8px}
+
+  .empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--slate);font-family:var(--serif);font-style:italic;font-size:19px}
+
+  /* ---- Colophon ---- */
+  .colophon{border-top:3px double var(--line-2);margin-top:40px;padding:24px 0 48px;
+    font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;color:var(--slate);line-height:1.7}
+  .colophon b{color:var(--ink)}
+  .colophon .note{max-width:70ch}
+
+  @media (max-width:720px){
+    .feature{grid-template-columns:1fr}
+    .feature .plate{min-height:200px;aspect-ratio:16/10}
+    .count{width:100%;margin:4px 0 0}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="kicker">
+      <span>Vol. I — Region VI · Western Visayas</span>
+      <button class="toggle" id="themeToggle" aria-label="Switch light or dark theme">Theme</button>
+    </div>
+    <h1 class="title">The Panay <em>Ledger</em></h1>
+    <p class="dek">A standing register of foreclosed and acquired-asset property across Panay island and the island-province of Guimaras — refreshed from bank and government rolls every six hours.</p>
+  </header>
+
+  <section class="band" id="band" aria-label="Register summary"></section>
+  <div class="provrow" id="provrow"></div>
+
+  <section class="feature" id="feature" aria-label="Deal of the cycle"></section>
+
+  <div class="controls">
+    <div class="wrap" style="padding:0">
+      <div class="row">
+        <input type="search" id="q" placeholder="Search town, seller, type…" aria-label="Search listings">
+        <select id="fProv" aria-label="Filter by province"></select>
+        <select id="fSeller" aria-label="Filter by seller"></select>
+        <select id="fType" aria-label="Filter by property type"></select>
+        <select id="sort" aria-label="Sort listings">
+          <option value="price">Sort: Price ↑</option>
+          <option value="price-d">Sort: Price ↓</option>
+          <option value="ppsqm">Sort: ₱ / sqm ↑</option>
+          <option value="area-d">Sort: Lot area ↓</option>
+        </select>
+        <span class="count" id="count"></span>
+      </div>
+    </div>
+  </div>
+
+  <main class="grid" id="grid"></main>
+
+  <footer class="colophon">
+    <div class="note" id="colophonNote"></div>
+  </footer>
+</div>
+<script>
+function boot(LISTINGS, META){
+  const peso=n=>n==null?"—":"₱"+Math.round(n).toLocaleString("en-PH");
+  const pesoShort=n=>{if(n==null)return"—";if(n>=1e6)return"₱"+(n/1e6).toFixed(n>=1e7?1:2)+"M";if(n>=1e3)return"₱"+Math.round(n/1e3)+"k";return"₱"+Math.round(n);};
+  const sqm=n=>n==null?null:Math.round(n).toLocaleString("en-PH")+" sqm";
+  const tc=s=>s?s.replace(/\w\S*/g,w=>w[0].toUpperCase()+w.slice(1).toLowerCase()):s;
+  const sellerLabel=s=>/^Unknown/.test(s||"")?"Bank / Institution":s;
+  const typeLabel=t=>t?tc(t):"Unspecified";
+  const ppsqm=r=>(r.price_php&&r.lot_area_sqm)?r.price_php/r.lot_area_sqm:null;
+  const PROV_ORDER=["Iloilo","Capiz","Aklan","Antique","Guimaras"];
+
+  // ---- Summary band ----
+  const prices=LISTINGS.map(r=>r.price_php).filter(Boolean);
+  const withSqm=LISTINGS.map(ppsqm).filter(Boolean).sort((a,b)=>a-b);
+  const median=arr=>{const a=[...arr].sort((x,y)=>x-y);const m=a.length>>1;return a.length%2?a[m]:(a[m-1]+a[m])/2;};
+  const bandData=[
+    {l:"Listings on file",v:LISTINGS.length},
+    {l:"Lowest asking",v:pesoShort(Math.min(...prices)),accent:true},
+    {l:"Median ₱ / sqm",v:withSqm.length?"₱"+Math.round(median(withSqm)).toLocaleString("en-PH"):"—"},
+    {l:"Total book value",v:pesoShort(prices.reduce((a,b)=>a+b,0))},
+    {l:"Last posted",v:(META.last_run_manila||"").replace(" UTC+08:00","")+" ",unit:"PHT"},
+  ];
+  document.getElementById("band").innerHTML=bandData.map(s=>
+    `<div class="stat${s.accent?' accent':''}"><div class="l">${s.l}</div><div class="v">${s.v}${s.unit?`<small>${s.unit}</small>`:""}</div></div>`).join("");
+
+  // province row + stale flag
+  const provCounts=PROV_ORDER.map(p=>[p,LISTINGS.filter(r=>r.province===p).length]).filter(x=>x[1]>0);
+  let provHtml=provCounts.map(([p,n])=>`${p} <b>${n}</b>`).join(" · ");
+  const staleSrc=Object.entries(META.per_source||{}).filter(([,v])=>v.stale||!v.ok).map(([k])=>k.replace(/_/g," "));
+  if(staleSrc.length) provHtml+=` <span class="stale"><span class="dot"></span>${staleSrc.join(", ")} feed unavailable — showing last good rolls</span>`;
+  document.getElementById("provrow").innerHTML=provHtml;
+
+  // ---- Deal of the Cycle: best ₱/sqm among plausibly-comparable land lots ----
+  const dealPool=LISTINGS.filter(r=>ppsqm(r)&&r.lot_area_sqm>=300);
+  const deal=dealPool.sort((a,b)=>ppsqm(a)-ppsqm(b))[0];
+  if(deal){
+    const img=deal.image_url&&!/no-image/.test(deal.image_url)?
+      `<img src="${deal.image_url}" alt="${deal.location_text}" loading="lazy" onerror="this.style.display='none'">`:"";
+    document.getElementById("feature").innerHTML=`
+      <div class="plate">${img||`<div class="fallback"><div class="fp">${deal.province}</div><div class="fs">${sqm(deal.lot_area_sqm)||""}</div></div>`}</div>
+      <div class="body">
+        <div class="seal-eyebrow">◆ Deal of the Cycle</div>
+        <h2>${deal.location_text}</h2>
+        <div class="loc">${typeLabel(deal.property_type)} · ${sellerLabel(deal.seller)}</div>
+        <div class="fprice">${peso(deal.price_php)}</div>
+        <div class="metaline">
+          <span>${sqm(deal.lot_area_sqm)}</span>
+          <span>≈ ₱${Math.round(ppsqm(deal)).toLocaleString("en-PH")} / sqm</span>
+        </div>
+        <a class="maplink" href="${deal.maps_url}" target="_blank" rel="noopener"><span class="seal">→</span> View on Google Maps</a>
+      </div>`;
+  } else {document.getElementById("feature").style.display="none";}
+
+  // ---- Filters ----
+  const uniq=(arr)=>[...new Set(arr)].sort();
+  const fProv=document.getElementById("fProv"), fSeller=document.getElementById("fSeller"),
+        fType=document.getElementById("fType"), sortSel=document.getElementById("sort"),
+        q=document.getElementById("q"), grid=document.getElementById("grid"), countEl=document.getElementById("count");
+  const opt=(sel,vals,all)=>{sel.innerHTML=`<option value="">${all}</option>`+vals.map(v=>`<option>${v}</option>`).join("");};
+  opt(fProv,provCounts.map(x=>x[0]),"All provinces");
+  opt(fSeller,uniq(LISTINGS.map(r=>sellerLabel(r.seller))),"All sellers");
+  opt(fType,uniq(LISTINGS.map(r=>typeLabel(r.property_type))),"All types");
+
+  function render(){
+    const term=q.value.trim().toLowerCase();
+    let rows=LISTINGS.filter(r=>
+      (!fProv.value||r.province===fProv.value)&&
+      (!fSeller.value||sellerLabel(r.seller)===fSeller.value)&&
+      (!fType.value||typeLabel(r.property_type)===fType.value)&&
+      (!term||(r.location_text+" "+sellerLabel(r.seller)+" "+typeLabel(r.property_type)).toLowerCase().includes(term)));
+    const s=sortSel.value;
+    rows.sort((a,b)=>{
+      if(s==="price")return (a.price_php??1e15)-(b.price_php??1e15);
+      if(s==="price-d")return (b.price_php??-1)-(a.price_php??-1);
+      if(s==="ppsqm")return (ppsqm(a)??1e15)-(ppsqm(b)??1e15);
+      if(s==="area-d")return (b.lot_area_sqm??-1)-(a.lot_area_sqm??-1);
+      return 0;
+    });
+    countEl.innerHTML=`<b>${rows.length}</b> of ${LISTINGS.length} parcels`;
+    if(!rows.length){grid.innerHTML=`<div class="empty">No parcels match this filter. Try widening your search.</div>`;return;}
+    grid.innerHTML=rows.map(r=>{
+      const pp=ppsqm(r);
+      const realImg=r.image_url&&!/no-image/.test(r.image_url);
+      const plate=realImg
+        ? `<img src="${r.image_url}" alt="${r.location_text}" loading="lazy" onerror="this.closest('.plate').innerHTML=fbHtml(${JSON.stringify(r.province)},${JSON.stringify(sqm(r.lot_area_sqm)||'')})">`
+        : fbHtml(r.province, sqm(r.lot_area_sqm)||"");
+      return `<article class="card">
+        <div class="plate"><span class="prov-tag">${r.province}</span>${plate}</div>
+        <div class="body">
+          <div class="loc">${r.location_text.replace(/, [^,]+$/,"")}</div>
+          <div class="sub">${typeLabel(r.property_type)}</div>
+          <div class="price">${peso(r.price_php)}</div>
+          <div class="ppsqm">${sqm(r.lot_area_sqm)||"Area n/a"}${pp?`  ·  ₱${Math.round(pp).toLocaleString("en-PH")}/sqm`:""}</div>
+          <div class="foot">
+            <span class="seller-chip">${sellerLabel(r.seller)}</span>
+            <a class="cardmap" href="${r.maps_url}" target="_blank" rel="noopener"><span class="seal">→</span> Map</a>
+          </div>
+        </div></article>`;
+    }).join("");
+  }
+  window.fbHtml=(prov,sqmStr)=>`<div class="fallback"><div class="fp">${prov}</div><div class="fs">${sqmStr||"Photo on file soon"}</div></div>`;
+  [q,fProv,fSeller,fType,sortSel].forEach(el=>el.addEventListener("input",render));
+  render();
+
+  // ---- Colophon ----
+  const srcLine=Object.entries(META.per_source||{}).map(([k,v])=>`${k.replace(/_/g," ")} ${v.count}${v.stale?" (stale)":""}`).join(" · ");
+  document.getElementById("colophonNote").innerHTML=
+    `<b>On coverage.</b> Guimaras, Aklan, and Antique carry naturally thin inventory — a short column here reflects the market, not a fault in the register. Iloilo and Capiz hold most of the volume.<br><br>`+
+    `<b>Sources this posting:</b> ${srcLine}. Prices are minimum bids or asking figures as published by the seller and are not offers. Location pins resolve the listed address on Google Maps and may be approximate for rural parcels. Verify every parcel with the seller before acting.`;
+
+  // ---- Theme toggle ----
+  const root=document.documentElement, tog=document.getElementById("themeToggle");
+  tog.addEventListener("click",()=>{
+    const cur=root.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
+    root.setAttribute("data-theme",cur==="dark"?"light":"dark");
+  });
+}
+
+
+(function(){
+  var grid=document.getElementById("grid");
+  Promise.all([
+    fetch("../data/listings.json").then(function(r){if(!r.ok)throw new Error("listings "+r.status);return r.json();}),
+    fetch("../data/meta.json").then(function(r){if(!r.ok)throw new Error("meta "+r.status);return r.json();})
+  ]).then(function(res){ boot(res[0], res[1]); })
+   .catch(function(e){
+     if(grid) grid.innerHTML='<div class="empty">The register could not be loaded ('+e.message+'). It refreshes every six hours — please try again shortly.</div>';
+     console.error(e);
+   });
+})();
+</script>
+
+</body>
+</html>
