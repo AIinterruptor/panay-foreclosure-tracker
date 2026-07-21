@@ -20,6 +20,7 @@ The guard discards fresh rows for a source when they fall under `threshold`
 (default 50%) of that source's prior row count -- but only when the prior
 count is >=10, so new/small sources are never guarded for lack of a baseline.
 """
+import concurrent.futures
 import csv, json, re, pathlib
 from datetime import datetime, timezone, timedelta
 from normalize import RECORD_KEYS
@@ -29,6 +30,35 @@ from normalize import RECORD_KEYS
 DATA = pathlib.Path(__file__).resolve().parent / "docs" / "data"
 PROV_ORDER = ["Iloilo", "Capiz", "Aklan", "Antique", "Guimaras"]
 OFFICIAL = {"pagibig_opa", "metrobank"}
+
+# Per-scraper wall-clock budget for run_with_timeout() in the fetch loop below.
+# Tune this if a legitimate slow source needs more room, or to shrink CI time.
+SCRAPER_TIMEOUT_S = 180  # 3 minutes
+
+
+def run_with_timeout(fn, timeout_s):
+    """Run fn() with a wall-clock budget so a single hung scraper (e.g. a
+    Playwright/browser context stalled on an Akamai bot-challenge) cannot
+    block the entire CI job forever.
+
+    Raises concurrent.futures.TimeoutError if fn() has not completed within
+    timeout_s (on CPython 3.11+ this is the same class as the builtin
+    TimeoutError -- see module docs).
+
+    CAVEAT: a Python thread cannot be forcibly killed. On timeout, the hung
+    fn() thread may keep running in the background as a leaked thread; the
+    caller proceeds without waiting on it. We deliberately do NOT call
+    executor.shutdown(wait=True) (that would block on the hung thread) --
+    the executor and its thread are simply abandoned to garbage collection.
+    This is an accepted tradeoff: the goal is for the pipeline to proceed,
+    not to guarantee the hung thread is reaped.
+    """
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+    future = executor.submit(fn)
+    try:
+        return future.result(timeout=timeout_s)
+    finally:
+        executor.shutdown(wait=False)
 
 def fingerprint(rec):
     loc = re.sub(r"\s+", " ", (rec.get("location_text") or "").strip().lower())
@@ -125,9 +155,19 @@ def main():
     fresh_by_source, status = {}, {}
     for name, mod in scrapers.items():
         try:
-            rows = mod.fetch()
+            rows = run_with_timeout(mod.fetch, SCRAPER_TIMEOUT_S)
             fresh_by_source[name] = rows
             status[name] = {"count": len(rows), "ok": True, "error": None}
+        except concurrent.futures.TimeoutError:
+            # Must be caught before the generic Exception handler below:
+            # concurrent.futures.TimeoutError is the builtin TimeoutError on
+            # Python 3.11+, which IS an Exception subclass, so ordering here
+            # is load-bearing -- a hung scraper must not blow the whole CI
+            # job, but it should still be visibly marked stale/not-ok.
+            fresh_by_source[name] = []
+            status[name] = {"count": 0, "ok": False,
+                             "error": f"timeout after {SCRAPER_TIMEOUT_S}s",
+                             "stale": True}
         except Exception as e:  # defensive; fetch() shouldn't raise
             fresh_by_source[name] = []
             status[name] = {"count": 0, "ok": False, "error": str(e)}
@@ -170,3 +210,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # A timed-out scraper (see run_with_timeout) leaks a non-daemon thread
+    # that CPython's interpreter shutdown will otherwise join forever --
+    # silently defeating the whole point of the timeout by hanging the CI
+    # job at process exit instead of inside main(). All output files are
+    # already written and closed above, so it's safe to hard-exit here
+    # instead of falling through to the normal (blocking) interpreter
+    # shutdown. Only done in the __main__ guard, not inside main() itself,
+    # so tests that call build.main() in-process are unaffected.
+    # os._exit() skips the normal atexit/buffer-flush machinery, so stdout
+    # and stderr are flushed explicitly first -- otherwise buffered print()
+    # output (including this module's own status prints) would be silently
+    # dropped from CI logs.
+    import os, sys
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(0)

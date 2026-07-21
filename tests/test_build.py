@@ -1,7 +1,11 @@
+import concurrent.futures
 import json
+import time
+
+import pytest
 
 import build
-from build import fingerprint, dedup, sort_records, merge_with_prior, guard_source_rows
+from build import fingerprint, dedup, sort_records, merge_with_prior, guard_source_rows, run_with_timeout
 
 def _rec(**kw):
     base = {"source": "x", "seller": "S", "location_text": "Oton, Iloilo",
@@ -154,3 +158,24 @@ def test_main_runs_end_to_end_with_mocked_scrapers(tmp_path, monkeypatch):
     meta = json.loads((tmp_path / "meta.json").read_text(encoding="utf-8"))
     assert meta["total"] == 2
     assert meta["per_source"]["pagibig_opa"]["stale"] is True
+
+
+def test_run_with_timeout_returns_fast_fn_result():
+    assert run_with_timeout(lambda: 42, timeout_s=5) == 42
+
+
+def test_run_with_timeout_returns_list_result_end_to_end():
+    assert run_with_timeout(lambda: [1, 2, 3], timeout_s=5) == [1, 2, 3]
+
+
+def test_run_with_timeout_raises_on_hang_and_does_not_block():
+    def _hang():
+        time.sleep(2)
+        return "never"
+
+    start = time.monotonic()
+    with pytest.raises(concurrent.futures.TimeoutError):
+        run_with_timeout(_hang, timeout_s=0.3)
+    elapsed = time.monotonic() - start
+
+    assert elapsed < 1.0
