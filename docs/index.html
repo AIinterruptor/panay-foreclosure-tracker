@@ -134,7 +134,13 @@
   .card .sub{font-family:var(--mono);font-size:11px;letter-spacing:.03em;color:var(--slate);text-transform:uppercase;margin-top:2px}
   .card .price{font-family:var(--serif);font-size:27px;color:var(--clay);margin-top:10px;font-variant-numeric:tabular-nums;line-height:1}
   .card .ppsqm{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:3px;font-variant-numeric:tabular-nums}
-  .card .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:13px}
+  .card .metarow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px}
+  .card .posted{font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--slate);text-transform:uppercase}
+  .card .branch{font-family:var(--mono);font-size:11px;letter-spacing:.02em;color:var(--brass-deep);text-transform:none}
+  .card .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:13px;border-top:1px solid var(--line);margin-top:13px}
+  .cardsrc{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+    text-decoration:none;color:var(--ink-soft)}
+  .cardsrc:hover{color:var(--brass-deep)}
   .seller-chip{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
     color:var(--brass-deep);border:1px solid var(--line-2);padding:3px 8px;border-radius:2px}
   .cardmap{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
@@ -248,7 +254,10 @@ function boot(LISTINGS, META){
           <span>${sqm(deal.lot_area_sqm)}</span>
           <span>≈ ₱${Math.round(ppsqm(deal)).toLocaleString("en-PH")} / sqm</span>
         </div>
-        <a class="maplink" href="${deal.maps_url}" target="_blank" rel="noopener"><span class="seal">→</span> View on Google Maps</a>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:20px">
+          <a class="maplink" style="margin-top:0" href="${deal.maps_url}" target="_blank" rel="noopener"><span class="seal">→</span> View on Google Maps</a>
+          ${deal.source_url?`<a class="cardsrc" href="${deal.source_url}" target="_blank" rel="noopener">Original listing&nbsp;↗</a>`:""}
+        </div>
       </div>`;
   } else {document.getElementById("feature").style.display="none";}
 
@@ -285,15 +294,19 @@ function boot(LISTINGS, META){
       const plate=realImg
         ? `<img src="${r.image_url}" alt="${r.location_text}" loading="lazy" onerror="this.closest('.plate').innerHTML=fbHtml(${JSON.stringify(r.province)},${JSON.stringify(sqm(r.lot_area_sqm)||'')})">`
         : fbHtml(r.province, sqm(r.lot_area_sqm)||"");
+      const posted=r.posted_date?`<span class="posted">Posted ${r.posted_date.replace(/\//g,".")}</span>`:"";
+      const branch=r.branch?`<span class="branch">${r.branch.replace(/\b\w+/g,w=>w[0]+w.slice(1).toLowerCase())}</span>`:"";
+      const srcLink=r.source_url?`<a class="cardsrc" href="${r.source_url}" target="_blank" rel="noopener">Listing&nbsp;↗</a>`:"";
       return `<article class="card">
         <div class="plate"><span class="prov-tag">${r.province}</span>${plate}</div>
         <div class="body">
           <div class="loc">${r.location_text.replace(/, [^,]+$/,"")}</div>
-          <div class="sub">${typeLabel(r.property_type)}</div>
+          <div class="sub">${typeLabel(r.property_type)}${branch?` · ${branch}`:""}</div>
           <div class="price">${peso(r.price_php)}</div>
           <div class="ppsqm">${sqm(r.lot_area_sqm)||"Area n/a"}${pp?`  ·  ₱${Math.round(pp).toLocaleString("en-PH")}/sqm`:""}</div>
+          <div class="metarow"><span class="seller-chip">${sellerLabel(r.seller)}</span>${posted}</div>
           <div class="foot">
-            <span class="seller-chip">${sellerLabel(r.seller)}</span>
+            ${srcLink||"<span></span>"}
             <a class="cardmap" href="${r.maps_url}" target="_blank" rel="noopener"><span class="seal">→</span> Map</a>
           </div>
         </div></article>`;
