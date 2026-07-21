@@ -6,11 +6,15 @@ uses csv.DictWriter(fieldnames=RECORD_KEYS) so it tracks the schema automaticall
 -- nothing here hardcodes a fixed-length field list.
 
 dedup() collapses same-fingerprint rows across sources, preferring OFFICIAL
-sources (pagibig_opa, metrobank) over the aggregator (foreclosurephilippines),
-and merges seller names from both sides. It also preserves image_url across
-the collision: the winner's photo is kept if present, else the loser's photo
-is carried over, so a listing does not lose its picture just because the
-official source that "won" the dedup didn't happen to have one.
+sources (pagibig_opa, metrobank, unionbank) over aggregators
+(foreclosurephilippines, lamudi), and merges seller names from both sides. It
+also preserves image_url across the collision: the winner's photo is kept if
+present, else the loser's photo is carried over, so a listing does not lose
+its picture just because the official source that "won" the dedup didn't
+happen to have one. When neither side is OFFICIAL (aggregator-vs-aggregator),
+the first-seen row wins -- see merge_with_prior's deterministic source
+ordering below, which is why scrapers are registered foreclosurephilippines-
+before-lamudi in main().
 
 guard_source_rows() is an anti-wipeout guard that runs before merge_with_prior:
 merge_with_prior already retains a source's prior rows when it returns exactly
@@ -29,7 +33,17 @@ from normalize import RECORD_KEYS
 # The dashboard requests "data/listings.json" relative to docs/index.html.
 DATA = pathlib.Path(__file__).resolve().parent / "docs" / "data"
 PROV_ORDER = ["Iloilo", "Capiz", "Aklan", "Antique", "Guimaras"]
-OFFICIAL = {"pagibig_opa", "metrobank"}
+OFFICIAL = {"pagibig_opa", "metrobank", "unionbank"}
+
+# Detail-page enrichment (enrich.parse_detail) only knows how to parse
+# foreclosurephilippines and metrobank detail pages. UnionBank and Lamudi
+# detail pages are NOT parseable by parse_detail -- routing their source_urls
+# into enrich_listings would waste the per-run fetch budget (cap=12) on pages
+# that can never yield a branch/tct, and would pollute detail_cache.json with
+# permanent "error"/"no_branch" entries. Only records whose source is in this
+# set are passed to enrich_listings(); everything else is recombined
+# untouched (branch/tct stay whatever the base scrape produced, i.e. None).
+ENRICHABLE = {"foreclosurephilippines", "metrobank"}
 
 # Per-scraper wall-clock budget for run_with_timeout() in the fetch loop below.
 # Tune this if a legitimate slow source needs more room, or to shrink CI time.
@@ -88,6 +102,48 @@ def dedup(records):
         by_fp[fp] = winner
     return list(by_fp.values())
 
+def _municipality(rec):
+    loc = (rec.get("location_text") or "")
+    return loc.split(",")[0].strip().lower()
+
+def count_near_miss_dupes(records):
+    """Post-dedup diagnostic: count record PAIRS that look like they describe
+    the same property (same province, same municipality -- first token of
+    location_text before the first comma, lowercased -- and price within 1%
+    of each other) but which carry DIFFERENT fingerprints and therefore did
+    NOT get collapsed by dedup(). A high count is a signal the fingerprint
+    (location_text + price + lot_area) may need loosening.
+
+    Deliberately O(n^2) -- n is small (<200 records/run), simplicity wins.
+    Pairs with identical fingerprints are excluded (those already deduped,
+    so they are exact dupes, not "near" ones). Pairs where either price is
+    None are skipped (a % comparison is undefined).
+    """
+    n = len(records)
+    count = 0
+    for i in range(n):
+        a = records[i]
+        pa = a.get("price_php")
+        if pa is None:
+            continue
+        for j in range(i + 1, n):
+            b = records[j]
+            pb = b.get("price_php")
+            if pb is None:
+                continue
+            if a.get("province") != b.get("province"):
+                continue
+            if _municipality(a) != _municipality(b):
+                continue
+            if fingerprint(a) == fingerprint(b):
+                continue
+            if pa == 0 and pb == 0:
+                continue
+            base = max(abs(pa), abs(pb)) or 1.0
+            if abs(pa - pb) / base <= 0.01:
+                count += 1
+    return count
+
 def sort_records(records):
     def key(r):
         pi = PROV_ORDER.index(r["province"]) if r["province"] in PROV_ORDER else 99
@@ -128,7 +184,14 @@ def merge_with_prior(fresh_by_source, prior, source_status):
     prior_by_source = {}
     for r in prior:
         prior_by_source.setdefault(r["source"], []).append(r)
-    all_sources = set(fresh_by_source) | set(prior_by_source)
+    # Deterministic order: fresh_by_source's own iteration order first (a plain
+    # dict, so this is caller registration order -- see main()'s `scrapers`
+    # dict, registered so foreclosurephilippines precedes lamudi), then any
+    # prior-only sources not present in this run's fresh set. A plain
+    # `set(fresh_by_source) | set(prior_by_source)` is hash-ordered (and would
+    # not reliably preserve registration order across runs/processes), which
+    # would silently defeat the fp-before-lamudi dedup tie-break intent.
+    all_sources = list(fresh_by_source) + [s for s in prior_by_source if s not in fresh_by_source]
     for src in all_sources:
         fresh = fresh_by_source.get(src, [])
         if fresh:
@@ -144,9 +207,16 @@ def _manila_now():
     return datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
 
 def main():
-    from scrapers import foreclosurephilippines, pagibig_opa, metrobank
+    from scrapers import foreclosurephilippines, pagibig_opa, metrobank, unionbank, lamudi
+    # Order matters: this dict's iteration order feeds merge_with_prior's
+    # deterministic all_sources ordering, which in turn is dedup()'s
+    # first-seen tie-break order for same-fingerprint rows where neither
+    # source is OFFICIAL. foreclosurephilippines is registered BEFORE lamudi
+    # so the backbone aggregator (richer detail pages + enrichment cache)
+    # wins ties over the newer aggregator.
     scrapers = {"foreclosurephilippines": foreclosurephilippines,
-                "pagibig_opa": pagibig_opa, "metrobank": metrobank}
+                "pagibig_opa": pagibig_opa, "metrobank": metrobank,
+                "unionbank": unionbank, "lamudi": lamudi}
     DATA.mkdir(exist_ok=True)
     prior = []
     if (DATA / "listings.json").exists():
@@ -176,19 +246,32 @@ def main():
     merged = merge_with_prior(fresh_by_source, prior, status)
     records = sort_records(dedup(merged))
 
+    near_miss = count_near_miss_dupes(records)
+
     # Detail-page enrichment (bank branch + TCT number), keyed by source_url and
     # cached across runs. Runs strictly AFTER records are finalized and BEFORE
     # anything is written, wrapped so a total enrichment failure can never
     # compromise the base pipeline's output -- listings.json/csv/meta.json must
     # still get written with the base data even if this whole block throws.
+    #
+    # Scoping: only records whose source is in ENRICHABLE are passed to
+    # enrich_listings -- parse_detail can't parse unionbank/lamudi detail
+    # pages, so routing them in would waste the fetch cap and pollute the
+    # cache with permanent error entries. Non-enrichable records are
+    # recombined afterward untouched (never dropped) and the list is
+    # re-sorted so branch/tct-adding enrichment doesn't disturb the
+    # province/price ordering the dashboard depends on.
     try:
         from enrich import load_cache, save_cache, enrich_listings, playwright_fetch_detail
         cache_path = DATA / "detail_cache.json"
         cache = load_cache(cache_path)
-        records, cache, n = enrich_listings(
-            records, cache, playwright_fetch_detail, cap=12,
+        enrichable = [r for r in records if r.get("source") in ENRICHABLE]
+        non_enrichable = [r for r in records if r.get("source") not in ENRICHABLE]
+        enriched, cache, n = enrich_listings(
+            enrichable, cache, playwright_fetch_detail, cap=12,
             now_iso=datetime.now(timezone.utc).isoformat())
         save_cache(cache_path, cache)
+        records = sort_records(enriched + non_enrichable)
         print(f"Enriched: {n} detail fetches this run")
     except Exception as e:
         print(f"Enrichment skipped (non-fatal): {e}")
@@ -204,6 +287,7 @@ def main():
         "last_run_manila": now.strftime("%Y-%m-%d %H:%M %Z"),
         "total": len(records),
         "per_source": status,
+        "near_miss_dupes": near_miss,
     }
     (DATA / "meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     print(f"Wrote {len(records)} records")

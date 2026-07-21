@@ -5,7 +5,8 @@ import time
 import pytest
 
 import build
-from build import fingerprint, dedup, sort_records, merge_with_prior, guard_source_rows, run_with_timeout
+from build import (fingerprint, dedup, sort_records, merge_with_prior, guard_source_rows,
+                    run_with_timeout, count_near_miss_dupes, ENRICHABLE)
 
 def _rec(**kw):
     base = {"source": "x", "seller": "S", "location_text": "Oton, Iloilo",
@@ -137,7 +138,7 @@ def test_main_runs_end_to_end_with_mocked_scrapers(tmp_path, monkeypatch):
     # Point build.DATA at a temp dir so this test never touches the real data/.
     monkeypatch.setattr(build, "DATA", tmp_path)
 
-    from scrapers import foreclosurephilippines, pagibig_opa, metrobank
+    from scrapers import foreclosurephilippines, pagibig_opa, metrobank, unionbank, lamudi
 
     monkeypatch.setattr(foreclosurephilippines, "fetch",
                          lambda: [_rec(source="foreclosurephilippines")])
@@ -145,6 +146,12 @@ def test_main_runs_end_to_end_with_mocked_scrapers(tmp_path, monkeypatch):
     monkeypatch.setattr(metrobank, "fetch",
                          lambda: [_rec(source="metrobank", location_text="Roxas, Capiz",
                                         province="Capiz")])
+    monkeypatch.setattr(unionbank, "fetch",
+                         lambda: [_rec(source="unionbank", location_text="Kalibo, Aklan",
+                                        province="Aklan")])
+    monkeypatch.setattr(lamudi, "fetch",
+                         lambda: [_rec(source="lamudi", location_text="San Jose, Antique",
+                                        province="Antique")])
 
     build.main()
 
@@ -153,11 +160,14 @@ def test_main_runs_end_to_end_with_mocked_scrapers(tmp_path, monkeypatch):
     assert (tmp_path / "meta.json").exists()
 
     records = json.loads((tmp_path / "listings.json").read_text(encoding="utf-8"))
-    assert len(records) == 2
+    assert len(records) == 4
 
     meta = json.loads((tmp_path / "meta.json").read_text(encoding="utf-8"))
-    assert meta["total"] == 2
+    assert meta["total"] == 4
     assert meta["per_source"]["pagibig_opa"]["stale"] is True
+    assert set(meta["per_source"].keys()) == {
+        "foreclosurephilippines", "pagibig_opa", "metrobank", "unionbank", "lamudi"}
+    assert "near_miss_dupes" in meta
 
 
 def test_run_with_timeout_returns_fast_fn_result():
@@ -179,3 +189,122 @@ def test_run_with_timeout_raises_on_hang_and_does_not_block():
     elapsed = time.monotonic() - start
 
     assert elapsed < 1.0
+
+
+# ---------- OFFICIAL set + scraper registration ----------
+
+def test_official_set_includes_unionbank():
+    assert build.OFFICIAL == {"pagibig_opa", "metrobank", "unionbank"}
+    assert "lamudi" not in build.OFFICIAL
+    assert "foreclosurephilippines" not in build.OFFICIAL
+
+
+def test_dedup_aggregator_tie_prefers_first_seen_fp_over_lamudi():
+    # Neither source is OFFICIAL -> first-seen wins. merge_with_prior's
+    # registration-order-preserving fix (fresh_by_source dict order, not a
+    # hash-ordered set) is what guarantees "first-seen" actually means
+    # "registered first" (foreclosurephilippines before lamudi in main()).
+    fp = _rec(source="foreclosurephilippines", seller="FP Seller")
+    lamudi = _rec(source="lamudi", seller="Lamudi Seller")
+
+    fresh_by_source = {"foreclosurephilippines": [fp], "lamudi": [lamudi]}
+    merged = merge_with_prior(fresh_by_source, [], {})
+    out = dedup(merged)
+
+    assert len(out) == 1
+    assert out[0]["source"] == "foreclosurephilippines"
+
+
+# ---------- near-miss dedup counter ----------
+
+def test_near_miss_counts_close_price_same_municipality_different_fingerprint():
+    # Same province+municipality (first token before comma), price within 1%,
+    # but different fingerprints (different lot area) -> did not dedup -> near-miss.
+    a = _rec(source="foreclosurephilippines", location_text="Oton, Iloilo",
+              price_php=1000000.0, lot_area_sqm=100.0)
+    b = _rec(source="lamudi", location_text="Oton, Iloilo",
+              price_php=1005000.0, lot_area_sqm=120.0)  # 0.5% price diff, diff fp
+    assert fingerprint(a) != fingerprint(b)
+    assert count_near_miss_dupes([a, b]) == 1
+
+
+def test_near_miss_does_not_count_identical_fingerprints_already_deduped():
+    # Same fingerprint records are what dedup() collapses -- must NOT be counted
+    # as a near-miss (that's an exact dupe, not a "near" one).
+    a = _rec(source="foreclosurephilippines", location_text="Oton, Iloilo",
+              price_php=1000000.0, lot_area_sqm=100.0)
+    b = _rec(source="lamudi", location_text="Oton, Iloilo",
+              price_php=1000000.0, lot_area_sqm=100.0)
+    assert fingerprint(a) == fingerprint(b)
+    assert count_near_miss_dupes([a, b]) == 0
+
+
+def test_near_miss_ignores_different_municipality():
+    a = _rec(location_text="Oton, Iloilo", price_php=1000000.0, lot_area_sqm=100.0)
+    b = _rec(location_text="Roxas, Capiz", price_php=1005000.0, lot_area_sqm=120.0)
+    assert count_near_miss_dupes([a, b]) == 0
+
+
+def test_near_miss_ignores_price_far_apart():
+    a = _rec(location_text="Oton, Iloilo", price_php=1000000.0, lot_area_sqm=100.0)
+    b = _rec(location_text="Oton, Iloilo", price_php=2000000.0, lot_area_sqm=120.0)
+    assert count_near_miss_dupes([a, b]) == 0
+
+
+def test_near_miss_ignores_none_price():
+    a = _rec(location_text="Oton, Iloilo", price_php=None, lot_area_sqm=100.0)
+    b = _rec(location_text="Oton, Iloilo", price_php=1000000.0, lot_area_sqm=120.0)
+    assert count_near_miss_dupes([a, b]) == 0
+
+
+def test_near_miss_counts_each_pair_once_across_multiple_records():
+    a = _rec(location_text="Oton, Iloilo", price_php=1000000.0, lot_area_sqm=100.0)
+    b = _rec(location_text="Oton, Iloilo", price_php=1005000.0, lot_area_sqm=120.0)
+    c = _rec(location_text="Roxas, Capiz", price_php=500000.0, lot_area_sqm=50.0)
+    assert count_near_miss_dupes([a, b, c]) == 1
+
+
+# ---------- enrichment scoping ----------
+
+def test_enrichable_set_excludes_unionbank_and_lamudi():
+    assert ENRICHABLE == {"foreclosurephilippines", "metrobank"}
+
+
+def test_main_only_enriches_enrichable_sources(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "DATA", tmp_path)
+
+    from scrapers import foreclosurephilippines, pagibig_opa, metrobank, unionbank, lamudi
+
+    fp_rec = _rec(source="foreclosurephilippines", location_text="Oton, Iloilo",
+                   province="Iloilo", source_url="https://fp.example/listing/1")
+    ub_rec = _rec(source="unionbank", location_text="Kalibo, Aklan",
+                   province="Aklan", source_url="https://unionbank.example/listing/2")
+    lm_rec = _rec(source="lamudi", location_text="San Jose, Antique",
+                   province="Antique", source_url="https://lamudi.example/listing/3")
+
+    monkeypatch.setattr(foreclosurephilippines, "fetch", lambda: [fp_rec])
+    monkeypatch.setattr(pagibig_opa, "fetch", lambda: [])
+    monkeypatch.setattr(metrobank, "fetch", lambda: [])
+    monkeypatch.setattr(unionbank, "fetch", lambda: [ub_rec])
+    monkeypatch.setattr(lamudi, "fetch", lambda: [lm_rec])
+
+    fetched_urls = []
+
+    def spy_fetch_detail(url):
+        fetched_urls.append(url)
+        return "<html><strong>Handling Branch</strong>Iloilo City Branch</html>"
+
+    import enrich
+    monkeypatch.setattr(enrich, "playwright_fetch_detail", spy_fetch_detail)
+
+    build.main()
+
+    assert fp_rec["source_url"] in fetched_urls
+    assert ub_rec["source_url"] not in fetched_urls
+    assert lm_rec["source_url"] not in fetched_urls
+
+    records = json.loads((tmp_path / "listings.json").read_text(encoding="utf-8"))
+    # No record dropped in the recombine.
+    assert len(records) == 3
+    sources = {r["source"] for r in records}
+    assert sources == {"foreclosurephilippines", "unionbank", "lamudi"}
