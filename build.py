@@ -11,6 +11,14 @@ and merges seller names from both sides. It also preserves image_url across
 the collision: the winner's photo is kept if present, else the loser's photo
 is carried over, so a listing does not lose its picture just because the
 official source that "won" the dedup didn't happen to have one.
+
+guard_source_rows() is an anti-wipeout guard that runs before merge_with_prior:
+merge_with_prior already retains a source's prior rows when it returns exactly
+0, but a PARTIAL scrape (e.g. a Cloudflare soft-block letting 5 rows through
+where ~65 is normal) would otherwise overwrite good data with a thin result.
+The guard discards fresh rows for a source when they fall under `threshold`
+(default 50%) of that source's prior row count -- but only when the prior
+count is >=10, so new/small sources are never guarded for lack of a baseline.
 """
 import csv, json, re, pathlib
 from datetime import datetime, timezone, timedelta
@@ -55,6 +63,34 @@ def sort_records(records):
         return (pi, price is None, price if price is not None else 0.0)
     return sorted(records, key=key)
 
+def guard_source_rows(fresh_by_source, prior, status, threshold=0.5):
+    """Anti-wipeout guard: run BEFORE merge_with_prior.
+
+    merge_with_prior already retains a source's prior rows when it returns
+    EXACTLY 0 (and marks it stale). That doesn't catch a PARTIAL scrape --
+    e.g. a Cloudflare soft-block/challenge that lets a handful of rows
+    through instead of the usual ~65. If a source had meaningful prior data
+    (>=10 rows) and the fresh count comes back under `threshold` of that
+    baseline (but > 0), treat it as a suspect partial scrape: discard the
+    fresh rows for that source and mark it not-ok/stale so merge_with_prior
+    falls back to retaining the prior rows.
+    """
+    prior_by_source = {}
+    for r in prior:
+        prior_by_source.setdefault(r["source"], []).append(r)
+
+    for source, fresh in list(fresh_by_source.items()):
+        prior_count = len(prior_by_source.get(source, []))
+        fresh_count = len(fresh)
+        if prior_count >= 10 and fresh_count > 0 and fresh_count < threshold * prior_count:
+            fresh_by_source[source] = []
+            status.setdefault(source, {}).update({
+                "ok": False,
+                "stale": True,
+                "error": f"partial scrape guarded: got {fresh_count}, prior {prior_count} (<{int(threshold * 100)}%)",
+            })
+    return fresh_by_source
+
 def merge_with_prior(fresh_by_source, prior, source_status):
     out = []
     prior_by_source = {}
@@ -94,6 +130,7 @@ def main():
             fresh_by_source[name] = []
             status[name] = {"count": 0, "ok": False, "error": str(e)}
 
+    fresh_by_source = guard_source_rows(fresh_by_source, prior, status)
     merged = merge_with_prior(fresh_by_source, prior, status)
     records = sort_records(dedup(merged))
 
