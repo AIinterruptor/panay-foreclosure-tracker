@@ -64,3 +64,18 @@ def test_province_of_helper():
     assert _province_of("Pavia, Iloilo") == "Iloilo"
     assert _province_of("Binangonan, Rizal") is None
     assert _province_of("Some Town, Guimaras") == "Guimaras"
+
+
+def test_province_of_rejects_substring_false_positive():
+    # "Aklan" must NOT match inside "Aklan Street, Quezon City" -- that's a
+    # Quezon City street name, not the province of Aklan.
+    assert _province_of("Aklan Street, Quezon City") is None
+
+
+def test_province_of_still_matches_panay_last_segment():
+    assert _province_of("Pavia, Iloilo") == "Iloilo"
+    assert _province_of("Jordan, Guimaras") == "Guimaras"
+
+
+def test_province_of_still_rejects_non_panay_last_segment():
+    assert _province_of("Binangonan, Rizal") is None

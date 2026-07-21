@@ -39,10 +39,23 @@ _AREA_NUMBER_RE = re.compile(r"[\d,]+\.?\d*")
 
 
 def _province_of(text):
-    """Return the canonical Panay/Guimaras province name found in text, or None."""
+    """Return the canonical Panay/Guimaras province name found in text, or None.
+
+    Metrobank locations are formatted "Municipality, Province" (e.g.
+    "Pavia, Iloilo"). Prefer matching against the LAST comma-separated
+    segment -- the province field -- since that's both more precise and
+    avoids false positives like "Aklan Street, Quezon City" (a street name
+    in Quezon City, not the province of Aklan). Fall back to a
+    word-boundary search over the whole string when there's no comma.
+
+    Note: this does NOT resolve city-only formats like "Roxas City" (Capiz)
+    that don't contain the literal province name -- out of scope (Minor).
+    """
     t = (text or "").lower()
+    if "," in t:
+        t = t.rsplit(",", 1)[-1]
     for key, name in PANAY.items():
-        if key in t:
+        if re.search(r"\b" + re.escape(key) + r"\b", t):
             return name
     return None
 
