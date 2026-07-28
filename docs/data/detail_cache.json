@@ -830,5 +830,13 @@
     "fetched_at": "2026-07-28T08:29:48.030965+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202312280005-blk-7-f-8-a-ilawod-pob-pontevedra-capiz-5802-negotiated-sale-on-aug-3-2026-aug-7-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "36210",
+    "fetched_at": "2026-07-28T14:00:59.483108+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
