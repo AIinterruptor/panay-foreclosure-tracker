@@ -1,13 +1,13 @@
 {
-  "last_run_utc": "2026-07-27T19:23:34.446815+00:00",
-  "last_run_manila": "2026-07-28 03:23 UTC+08:00",
+  "last_run_utc": "2026-07-28T02:16:06.466208+00:00",
+  "last_run_manila": "2026-07-28 10:16 UTC+08:00",
   "total": 163,
   "per_source": {
     "foreclosurephilippines": {
-      "count": 117,
-      "ok": true,
-      "error": null,
-      "stale": false
+      "count": 0,
+      "ok": false,
+      "error": "timeout after 180s",
+      "stale": true
     },
     "pagibig_opa": {
       "count": 0,
