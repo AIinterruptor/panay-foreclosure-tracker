@@ -838,5 +838,37 @@
     "fetched_at": "2026-07-28T14:00:59.483108+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-805823102500014-lot-15-blk-21-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-jul-27-2026-jul-31-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001890",
+    "fetched_at": "2026-08-01T02:33:46.015096+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-agricultural-vacant-lot-lot-no-1375-cad-527-d-brgy-bilao-sapian-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-01T02:33:46.015096+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-34-b-5psd-061905-030256-brgy-poblacion-norte-ivisan-capiz-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-01T02:33:46.015096+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philmay-foreclosed-property-at-lots-1206-g-2-b-2-c-1-and-1206-g-3-a-3-c-barangay-libas-roxas-city-residential-lot-vacant-and-landlocked-without-right-of-way-residential-lot-vacant-with-annot/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-01T02:33:46.015096+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
