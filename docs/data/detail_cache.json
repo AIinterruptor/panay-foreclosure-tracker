@@ -870,5 +870,21 @@
     "fetched_at": "2026-08-01T02:33:46.015096+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-2819-c-9-psd-06-00264-barangay-poblacion-cuartero-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-01T08:17:44.862763+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-no-1789-b-8-psd-06-031494-barangay-tiza-roxas-city-capiz-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-01T08:17:44.862763+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
