@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-03T02:32:12.748784+00:00",
-  "last_run_manila": "2026-08-03 10:32 UTC+08:00",
-  "total": 162,
+  "last_run_utc": "2026-08-03T09:39:54.521373+00:00",
+  "last_run_manila": "2026-08-03 17:39 UTC+08:00",
+  "total": 166,
   "per_source": {
     "foreclosurephilippines": {
       "count": 117,
@@ -16,10 +16,10 @@
       "stale": true
     },
     "metrobank": {
-      "count": 0,
+      "count": 1,
       "ok": true,
       "error": null,
-      "stale": true
+      "stale": false
     },
     "unionbank": {
       "count": 0,
@@ -34,5 +34,5 @@
       "stale": true
     }
   },
-  "near_miss_dupes": 19
+  "near_miss_dupes": 18
 }
