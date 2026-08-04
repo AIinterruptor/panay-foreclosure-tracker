@@ -974,5 +974,13 @@
     "fetched_at": "2026-08-03T09:38:44.708359+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202509230011-lot-19-blk-31-phase-ii-deca-homes-pavia-resort-residences-2-deca-homes-pavia-resort-residences-jibao-an-pavia-iloilo-5001-2nd-public-auction-on-aug-10-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2021009640",
+    "fetched_at": "2026-08-04T08:33:36.652134+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
