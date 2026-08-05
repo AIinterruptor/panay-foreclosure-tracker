@@ -54,9 +54,9 @@
     "branch": null
   },
   {
-    "source": "lamudi",
-    "seller": "BDO",
-    "property_type": "Lot",
+    "source": "foreclosurephilippines",
+    "seller": "BDO / Unknown (foreclosurephilippines)",
+    "property_type": "RESIDENTIAL",
     "location_text": "Oton, Iloilo",
     "province": "Iloilo",
     "price_php": 1056000.0,
@@ -66,9 +66,9 @@
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Oton%2C+Iloilo%2C+Philippines",
-    "image_url": "https://img.lamudi.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTllOGMyYi0wMjFlLTdlYjItYWYzYy1hNTkxZTA1NWRmNzgvYjU5ZTY5YjU3Yzc4OWVkZDkwMjNiYzk5ZDM2M2EyNzczMGM0MjExNzBjZWRiMTEyOGE1YmFjNTE1ODM3ZGMzMS5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
-    "source_url": "https://www.lamudi.com.ph/property/41032-73-a591e055dfc1-267-19e8c74-af85-7efb",
-    "posted_date": null,
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/v-r-1-47-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-vacant-lot-lot-9-block-15-road-lot-18-savannah-glen-d-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/",
+    "posted_date": "2026/08/04",
     "branch": null
   },
   {
@@ -221,24 +221,6 @@
     "property_type": null,
     "location_text": "Santa Barbara, Iloilo",
     "province": "Iloilo",
-    "price_php": 1307200.0,
-    "lot_area_sqm": 35.0,
-    "floor_area_sqm": 38.5,
-    "tct": "090-2022023068",
-    "sale_type": null,
-    "auction_date": null,
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920250819009-310x190.jpg",
-    "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202507290004-lot-35-blk-21-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-aug-3-2026-aug-7-2026/",
-    "posted_date": "2026/07/27",
-    "branch": "BACOLOD BRANCH"
-  },
-  {
-    "source": "foreclosurephilippines",
-    "seller": "Pag-IBIG",
-    "property_type": null,
-    "location_text": "Santa Barbara, Iloilo",
-    "province": "Iloilo",
     "price_php": 1308200.0,
     "lot_area_sqm": 35.0,
     "floor_area_sqm": 38.5,
@@ -249,24 +231,6 @@
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/fil5920260722019-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606250024-lot-10-blk-56-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-aug-10-2026-aug-14-2026/",
     "posted_date": "2026/08/02",
-    "branch": "BACOLOD BRANCH"
-  },
-  {
-    "source": "foreclosurephilippines",
-    "seller": "Pag-IBIG",
-    "property_type": null,
-    "location_text": "Santa Barbara, Iloilo",
-    "province": "Iloilo",
-    "price_php": 1310700.0,
-    "lot_area_sqm": 35.0,
-    "floor_area_sqm": 38.5,
-    "tct": "090-2023007369",
-    "sale_type": null,
-    "auction_date": null,
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Santa+Barbara%2C+Iloilo%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/07/fil5920260709012-310x190.jpg",
-    "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606260008-lot-13-blk-34-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-aug-3-2026-aug-7-2026/",
-    "posted_date": "2026/07/27",
     "branch": "BACOLOD BRANCH"
   },
   {
@@ -666,6 +630,24 @@
     "branch": null
   },
   {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": "RESIDENTIAL",
+    "location_text": "Oton, Iloilo",
+    "province": "Iloilo",
+    "price_php": 3311000.0,
+    "lot_area_sqm": 233.0,
+    "floor_area_sqm": 60.0,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Oton%2C+Iloilo%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/r-2024002508-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lot-6-block-11-savannah-glen-e-subdivision-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/",
+    "posted_date": "2026/08/04",
+    "branch": null
+  },
+  {
     "source": "lamudi",
     "seller": "BDO",
     "property_type": "House",
@@ -807,6 +789,24 @@
     "image_url": "https://img.lamudi.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlmMTc2YS0zYzBmLTc1ZjMtYTdmMC0zYjk4ZTAyMDQ5NjEvZDRkNTUyOGVkNmY0NzcyOTQ5NGNlOTg5MzkzMzM3ZTFhMmJlMjhmNDIwZTg1ZjFjNDgwOTZhOWJkM2RhNWI3OC5wbmciLCJicmFuZCI6ImxhbXVkaSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MjQwLCJmaXQiOiJjb3ZlciJ9fX0=",
     "source_url": "https://www.lamudi.com.ph/property/41032-73-3b98e02049aa-3c58-19f17b3-a839-763c",
     "posted_date": null,
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": "RESIDENTIAL",
+    "location_text": "Oton, Iloilo",
+    "province": "Iloilo",
+    "price_php": 3777800.0,
+    "lot_area_sqm": 259.0,
+    "floor_area_sqm": 72.0,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Oton%2C+Iloilo%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/r-2024001671-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lot-14-block-11-savannah-glen-e-3-subdivision-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/",
+    "posted_date": "2026/08/04",
     "branch": null
   },
   {
@@ -1005,6 +1005,24 @@
     "image_url": "https://img.lamudi.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlmMjZkOC04YjI2LTdkYzgtOTU1YS1jYjlkOTczZTE2MDIvNzNmNjdhOWY0MDVlYjgzZjgyYmZkYTgwZjc2MWEyMDUzZWIzODI0MmM1NWE4ZWViZTU1NWYxMDA0MmYzYTZmOS5wbmciLCJicmFuZCI6ImxhbXVkaSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MjQwLCJmaXQiOiJjb3ZlciJ9fX0=",
     "source_url": "https://www.lamudi.com.ph/property/41032-73-cb9d973e164b-8b6f-19f2721-95a3-7e11",
     "posted_date": null,
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": "RESIDENTIAL",
+    "location_text": "Iloilo City, Iloilo",
+    "province": "Iloilo",
+    "price_php": 6135000.0,
+    "lot_area_sqm": null,
+    "floor_area_sqm": 40.9,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Iloilo+City%2C+Iloilo%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/r-2024002914-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-condominium-unit-as2-215-2-f-storey-2-avida-towers-atria-donato-pison-ave-brgy-san-rafael-mandurriao-iloilo-city-iloilo-pending-consolidated-title-no-tax-declaratio/",
+    "posted_date": "2026/08/04",
     "branch": null
   },
   {
@@ -1783,7 +1801,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "BDO",
+    "seller": "Unknown (foreclosurephilippines)",
     "property_type": "AGRICULTURAL",
     "location_text": "Pilar, Capiz",
     "province": "Capiz",
@@ -1794,9 +1812,9 @@
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/v-a-1-1-1-1-310x190.jpg",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/v-a-1-1-1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-foreclosed-agricultural-vacant-lot-lot-459-brgy-binaobaoan-pilar-capiz-interior-for-sale/",
-    "posted_date": "2026/07/16",
+    "posted_date": "2026/08/04",
     "branch": null
   },
   {
@@ -1945,7 +1963,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "BDO",
+    "seller": "Unknown (foreclosurephilippines)",
     "property_type": "AGRICULTURAL",
     "location_text": "Pilar, Capiz",
     "province": "Capiz",
@@ -1956,14 +1974,14 @@
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/capiz1-1-310x190.jpg",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/capiz1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-foreclosed-agricultural-vacant-lot-lot-384-brgy-binaobaoan-pilar-capiz-interior-for-sale/",
-    "posted_date": "2026/07/16",
+    "posted_date": "2026/08/04",
     "branch": null
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "BDO",
+    "seller": "Unknown (foreclosurephilippines)",
     "property_type": "AGRICULTURAL",
     "location_text": "Pilar, Capiz",
     "province": "Capiz",
@@ -1974,9 +1992,9 @@
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/v-a-1-7-310x190.jpg",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/v-a-1-7-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-agricultural-vacant-lot-lot-382-brgy-binaobaoan-pilar-capiz-interior-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/07/16",
+    "posted_date": "2026/08/04",
     "branch": null
   },
   {
@@ -2449,7 +2467,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "BDO",
+    "seller": "Unknown (foreclosurephilippines)",
     "property_type": "RESIDENTIAL",
     "location_text": "Kalibo, Aklan",
     "province": "Aklan",
@@ -2460,9 +2478,9 @@
     "sale_type": null,
     "auction_date": null,
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Kalibo%2C+Aklan%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/05/r-2024002246-310x190.jpg",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/08/r-2024002246-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lots-6488-and-6489-jaime-cardinal-sin-avenue-brgy-mabilo-kalibo-aklan-pending-consolidation-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/07/16",
+    "posted_date": "2026/08/04",
     "branch": null
   },
   {

@@ -982,5 +982,37 @@
     "fetched_at": "2026-08-04T08:33:36.652134+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/foreclosed-residential-vacant-lot-lot-9-block-15-road-lot-18-savannah-glen-d-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-05T14:02:03.045339+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lot-6-block-11-savannah-glen-e-subdivision-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-05T14:02:03.045339+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lot-14-block-11-savannah-glen-e-3-subdivision-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-05T14:02:03.045339+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/foreclosed-residential-condominium-unit-as2-215-2-f-storey-2-avida-towers-atria-donato-pison-ave-brgy-san-rafael-mandurriao-iloilo-city-iloilo-pending-consolidated-title-no-tax-declaratio/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-05T14:02:03.045339+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
