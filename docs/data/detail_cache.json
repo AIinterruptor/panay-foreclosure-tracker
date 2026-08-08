@@ -1014,5 +1014,13 @@
     "fetched_at": "2026-08-05T14:02:03.045339+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202604290003-lot-44-blk-42-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-aug-3-2026-aug-7-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023007835",
+    "fetched_at": "2026-08-08T06:45:49.604671+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
