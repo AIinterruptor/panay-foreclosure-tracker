@@ -1022,5 +1022,37 @@
     "fetched_at": "2026-08-08T06:45:49.604671+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-town-house-lot-45-blk-23-deca-homes-sta-barbara-residences-economic-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-apr-20-2026-apr-24-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "902022023262",
+    "fetched_at": "2026-08-11T07:02:45.504788+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202507310014-lot-63-blk-9-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-aug-3-2026-aug-7-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023006062",
+    "fetched_at": "2026-08-11T07:02:45.504788+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606240020-lot-14-blk-34-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-aug-3-2026-aug-7-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022024179",
+    "fetched_at": "2026-08-11T07:02:45.504788+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-foreclosed-town-house-lot-89-blk-20-phase-s2-deca-homes-leganes-residences-guinobatan-leganes-iloilo-5003-negotiated-sale-on-jun-15-2026-jun-19-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2021012187",
+    "fetched_at": "2026-08-11T07:02:45.504788+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
