@@ -1126,5 +1126,29 @@
     "fetched_at": "2026-08-12T07:22:25.688293+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/sss-foreclosed-property-lot-20-block-2-bh-subdivision-brgy-navais-mandurriao-iloilo-city-one-storey-residential/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-13T07:22:53.049521+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-616-gssm-06-000002-barangay-aglalana-dumarao-capiz-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-13T07:22:53.049521+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-1698-f-psd-06-001351-sitio-lonoy-brgy-sta-cruz-dumalag-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-13T07:22:53.049521+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
