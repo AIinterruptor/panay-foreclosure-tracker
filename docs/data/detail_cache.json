@@ -1382,5 +1382,21 @@
     "fetched_at": "2026-08-18T06:39:11.190146+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858201906240003-lot-933-a-6-olano-subd-mongpong-roxas-city-capiz-5800-negotiated-sale-on-aug-24-2026-aug-28-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2019000132",
+    "fetched_at": "2026-08-18T12:39:33.690394+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202312280004-lot-939-a-4-blk-psd-06-058801-olano-subd-mongpong-roxas-city-capiz-5800-negotiated-sale-on-aug-24-2026-aug-28-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2025001558",
+    "fetched_at": "2026-08-18T12:39:33.690394+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
