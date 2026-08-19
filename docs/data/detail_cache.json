@@ -1494,5 +1494,45 @@
     "fetched_at": "2026-08-19T06:39:59.327584+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-vacant-lot-lot-3226-e-2-b-1-barangay-pawa-panay-capiz/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T12:41:40.179392+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-832-b-brgy-san-miguel-dumalag-capiz/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T12:41:40.179392+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-commercial-vacant-lot-lot-2-c-roxas-avenue-poblacion-kalibo-aklan/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T12:41:40.179392+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-industrial-with-improvement-lot-7019-dongon-east-numancia-aklan/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T12:41:40.179392+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-1-i-2-new-buswang-kalibo-aklan-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T12:41:40.179392+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
