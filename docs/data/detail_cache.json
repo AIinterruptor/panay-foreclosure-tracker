@@ -1398,5 +1398,101 @@
     "fetched_at": "2026-08-18T12:39:33.690394+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-vacant-lot-lot-4472-d-4-national-road-brgy-buhang-jaro-district-iloilo-city-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-74-block-13-phase-1-monticello-villas-barangay-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-28-blk-10-monticello-villas-phase-i-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-9-blk-8-phase-1-monticello-villas-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-5-blk-14-phase-1-monticello-villas-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-23-blk-12-phase-1-monticello-villas-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-6-block-6-monticello-villas-phase-1-barangay-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-5-blk-15-along-road-lot-15-monticello-villas-i-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-31-block-5-phase-1-monticello-villas-barangay-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-29-blk-7-monticello-villas-phase-1-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-27-blk-4-phase-i-monticello-villas-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-26-blk-12-monticello-villas-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-19T06:39:59.327584+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
