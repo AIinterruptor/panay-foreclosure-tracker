@@ -1534,5 +1534,77 @@
     "fetched_at": "2026-08-19T12:41:40.179392+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-54-blk-02-monticello-villas-phase-i-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-42-block-2-monticello-villas-phase-1-barangay-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-52-block-02-phase-1-monticello-villas-brgy-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-10-block-5-parc-regency-residences-5-barangay-balabag-pavia-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-vacant-lot-lot-3807-c-2-a-national-road-brgy-buhang-jaro-district-iloilo-city-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-with-improvement-lot-43-blk-12-cypress-avenue-gran-plains-subd-brgy-hechanova-jaro-district-iloilo-city-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-vacant-lot-lot-3837-b-3-a-national-road-brgy-buhang-jaro-district-iloilo-city-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-vacant-lot-lot-3807-c-2-c-national-road-brgy-buhang-jaro-district-iloilo-city-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/metrobank-foreclosed-residential-vacant-lot-lot-4472-d-1-national-road-brgy-buhang-jaro-district-iloilo-city-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-20T01:03:25.698769+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
