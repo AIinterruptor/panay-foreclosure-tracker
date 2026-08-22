@@ -1606,5 +1606,101 @@
     "fetched_at": "2026-08-20T01:03:25.698769+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-15-blk-9-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-agricultural-lot-3696-barangay-poscolon-barotac-viejo-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-5-blk-8-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-5-blk-5-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-25-blk-8-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-10-blk-9-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-2-blk-5-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-26-blk-8-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-3-blk-1-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-l-20-blk-9-don-venancio-village-barangay-maribonglambunao-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-agricultural-lot-3694-barangay-poscolon-barotac-viejo-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/philippine-veterans-bank-asset-lot-6iloilo1-c-purok-ma-oy-barangay-sulungandumangas-iloilo/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-22T06:35:12.528589+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
