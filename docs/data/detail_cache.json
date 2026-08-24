@@ -1838,5 +1838,85 @@
     "fetched_at": "2026-08-22T18:25:35.029900+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202503250029-lot-45-blk-25-phase-2-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023446",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202412280051-lot-19-blk-24-deca-homes-pavia-pandac-pavia-iloilo-5001-negotiated-sale-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2018012148",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202510220014-lot-3-blk-9-phase-i-deca-homes-pavia-pandac-pavia-iloilo-5001-1st-public-auction-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2020012209",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202604290002-lot-56-blk-10-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022401",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202503190096-lot-27-blk-10-deca-homes-leganes-residences-site-3-guihaman-leganes-iloilo-5003-negotiated-sale-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "902023011949",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202603190015-lot-34-blk-10-deca-homes-leganes-residences-site-3-guihaman-leganes-iloilo-5003-negotiated-sale-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023011956",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202207140001-lot-1454-f-4-dumolog-roxas-city-capiz-5800-negotiated-sale-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2023000463",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202504110001-lot-1-blk-11-cagay-roxas-city-capiz-5800-negotiated-sale-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "T-50554",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202509300004-lot-2-blk-2-individual-district-ii-pob-sibalom-antique-5713-1st-public-auction-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "29321",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202602270017-lot-397-c-none-poblacion-belison-antique-5701-1st-public-auction-on-aug-31-2026-sep-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "T-8633",
+    "fetched_at": "2026-08-24T18:37:21.259188+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
