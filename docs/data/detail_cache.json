@@ -1974,5 +1974,101 @@
     "fetched_at": "2026-08-25T06:42:11.122566+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-5-block-5-psd-06-05-6230-along-road-lot-3-st-joseph-village-brgy-poblacion-alimodian-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-12-cad-309-d-brgy-tampucao-lambunao-iloilo-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-with-improvement-lot-601-rodriguez-st-brgy-poblacion-alimodian-iloilo-for-negotiated-sale-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-no-424-h-5-b-2-psd-06-055711-barangay-poblacion-p-ledesma-ward-pototan-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-424-h-5-b-3-psd-06-055711-portion-of-psd-06-001696-barangay-poblacion-p-ledesma-ward-pototan-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-others-at-lot-1622-cad-746-d-brgy-sepanton-lemery-iloilo-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-vacant-lot-at-lot-no-5-block-3-pcs-06-002743-brgy-cano-an-estancia-iloilo-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-53-pls-1981-brgy-domingo-sara-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-1616-a-6-psd-06-057891-brgy-acuit-barotac-nuevo-iloilo-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-6588-b-4-psd-06-042629-poblacion-ilaud-lambunao-iloilo-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-2910-f-11-e-1-zone-2-green-farm-road-brgy-poblacion-badiangan-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-with-improvement-at-lot-1678-puntales-road-poblacion-concepcion-iloilo-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T07:09:20.789037+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
