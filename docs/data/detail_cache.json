@@ -2070,5 +2070,101 @@
     "fetched_at": "2026-08-27T07:09:20.789037+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-6588-b-5-psd-06-042629-poblacion-ilaud-lambunao-iloilo-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-7964-d-cad-148-psd-4124-brgy-garita-san-enrique-iloilo-for-public-auction-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-513-b-2-b-psd-06-065345-zone-6-brgy-cruz-barotac-viejo-iloilo-for-public-auction-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-6588-b-2psd-06-042629-poblacion-ilaud-lambunao-iloilo-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-2526-c-psd-06-021532-brgy-capagao-panitan-capiz-for-public-auction-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-34-b-6psd-061905-030256-brgy-poblacion-norte-ivisan-capiz-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-no-1986-a-4-d-7-psd-06-012210-barangay-lawa-an-roxas-city-for-public-auction-on-february-26-2026/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-1986-b-1-g-psd-06-021198-brgy-milibili-roxas-city-capiz-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-vacant-lot-lot-no-1168-a-psd-297428-purok-3-brgy-dayao-roxas-city-capiz-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-with-improvement-lot-2012-c-2-f-psd-061914-025200-brgy-milibili-roxas-city-capiz-for-public-auction-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-31-pls-238-brgy-pangabat-jamindan-capiz-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-residential-agricultural-with-improvement-at-lot-no-2256-brgy-agtatacay-sur-sitio-bahay-sapian-capiz-for-negotiated-sale-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-27T21:43:07.586250+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
