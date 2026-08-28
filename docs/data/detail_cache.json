@@ -2262,5 +2262,93 @@
     "fetched_at": "2026-08-28T08:56:55.169945+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-a-52-brgy-rosal-libacao-aklan-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-acquired-asset-agricultural-vacant-lot-at-lot-no-3910-p-brgy-pudiot-tangalan-aklan-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-2666-case-8-cad-873-d-brgy-cubay-south-bugasong-antique-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-2600-case-8-cad-873-d-brgy-cubay-south-bugasong-antique-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-no-588-cad-818-d-c-4-brgy-binanu-an-barbaza-antique-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-agricultural-vacant-lot-lot-3069-c-1-psd-06-06-8374-brgy-magsaysay-patnongon-antique-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-residential-agricultural-with-improvement-lot-10144-cad-743-d-brgy-salazar-tibiao-antique-for-public-auction-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-3613-psc-40-case-3-jordan-cad-brgy-ayangan-sibunag-guimaras-for-public-auction/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-3777-pls-775-brgy-cabalagnon-nueva-valencia-guimaras-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-4256-pls-775-case-4-brgy-canhawan-nueva-valencia-guimaras-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pdic-foreclosed-agricultural-vacant-lot-lot-4700-a-psu-175916-barangay-sapal-san-lorenzo-guimaras-for-negotiated-sale/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-28T21:43:01.450762+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
