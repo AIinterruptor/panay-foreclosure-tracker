@@ -1,10 +1,10 @@
 {
-  "last_run_utc": "2026-08-29T05:31:59.355263+00:00",
-  "last_run_manila": "2026-08-29 13:31 UTC+08:00",
-  "total": 189,
+  "last_run_utc": "2026-08-29T12:16:19.202002+00:00",
+  "last_run_manila": "2026-08-29 20:16 UTC+08:00",
+  "total": 174,
   "per_source": {
     "foreclosurephilippines": {
-      "count": 128,
+      "count": 113,
       "ok": true,
       "error": null,
       "stale": false
@@ -34,5 +34,5 @@
       "stale": true
     }
   },
-  "near_miss_dupes": 13
+  "near_miss_dupes": 12
 }

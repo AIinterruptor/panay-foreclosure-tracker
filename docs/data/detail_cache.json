@@ -2350,5 +2350,13 @@
     "fetched_at": "2026-08-28T21:43:01.450762+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/eastwest-bank-foreclosed-residential-vacant-lot-at-lots-30-31-block-2-corona-st-sta-barbara-heights-phase-2-sta-barbara-prov-of-iloilo-lot-area-462-00-sqm/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-08-29T12:16:12.516322+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
