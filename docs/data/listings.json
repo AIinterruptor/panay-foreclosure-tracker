@@ -234,24 +234,6 @@
     "branch": "BACOLOD BRANCH"
   },
   {
-    "source": "foreclosurephilippines",
-    "seller": "Pag-IBIG",
-    "property_type": null,
-    "location_text": "Pavia, Iloilo",
-    "province": "Iloilo",
-    "price_php": 1469400.0,
-    "lot_area_sqm": 80.0,
-    "floor_area_sqm": 35.1,
-    "tct": "090-2018001410",
-    "sale_type": null,
-    "auction_date": null,
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pavia%2C+Iloilo%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/pagibig_fil5920250801026-310x190.jpg",
-    "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202407310008-lot-13-blk-25-phase-1-deca-homes-pavia-resort-residences-2-balabag-pavia-iloilo-5001-negotiated-sale-on-sep-9-2026-sep-14-2026-occupied/",
-    "posted_date": "2026/08/31",
-    "branch": "BACOLOD BRANCH"
-  },
-  {
     "source": "lamudi",
     "seller": "My Saving Grace Realty & Development Corp",
     "property_type": "House",
@@ -465,6 +447,24 @@
     "image_url": "https://img.lamudi.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTljMDNhMC0yZmVhLTdkNzYtYTk2Ni1kZmY0NmUxZTA0NzcvZDExNzBiYjcxZjU4MTk1MTg5Y2NiNWFmYjQ5ZmFmNDU4ZDU5MTNhZjMyNTUwNDNiMGQ5MTY2YTIzZjFiYmYyMy5wbmciLCJicmFuZCI6ImxhbXVkaSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MjQwLCJmaXQiOiJjb3ZlciJ9fX0=",
     "source_url": "https://www.lamudi.com.ph/property/41032-73-dff46e1e04c0-3033-19c03e9-a9af-7dbf",
     "posted_date": null,
+    "branch": null
+  },
+  {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Iloilo City, Iloilo",
+    "province": "Iloilo",
+    "price_php": 2289860.0,
+    "lot_area_sqm": 230.0,
+    "floor_area_sqm": 177.7,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Iloilo+City%2C+Iloilo%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/sss_westernvisayas_item15-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/sss-foreclosed-property-lot-20-block-2-bh-subdivision-brgy-navais-mandurriao-iloilo-city-one-storey-residential/",
+    "posted_date": "2026/09/03",
     "branch": null
   },
   {
