@@ -2598,5 +2598,13 @@
     "fetched_at": "2026-09-08T02:57:58.030516+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-859202506190009-lot-28-blk-28-phase-1-deca-homes-pavia-pandac-pavia-iloilo-5001-2nd-public-auction-on-sep-14-2026-sep-18-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2015005828",
+    "fetched_at": "2026-09-08T10:33:23.874416+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }

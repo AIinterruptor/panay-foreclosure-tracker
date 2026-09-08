@@ -18,6 +18,24 @@
     "branch": null
   },
   {
+    "source": "foreclosurephilippines",
+    "seller": "Pag-IBIG",
+    "property_type": null,
+    "location_text": "Pavia, Iloilo",
+    "province": "Iloilo",
+    "price_php": 949761.0,
+    "lot_area_sqm": 48.0,
+    "floor_area_sqm": 55.0,
+    "tct": "090-2015005828",
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pavia%2C+Iloilo%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/pagibig_fil5920251103081-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-859202506190009-lot-28-blk-28-phase-1-deca-homes-pavia-pandac-pavia-iloilo-5001-2nd-public-auction-on-sep-14-2026-sep-18-2026/",
+    "posted_date": "2026/09/07",
+    "branch": "BACOLOD BRANCH"
+  },
+  {
     "source": "lamudi",
     "seller": "BPI (Buena Mano)",
     "property_type": "Lot",
