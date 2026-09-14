@@ -73,25 +73,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Pag-IBIG",
-    "property_type": null,
-    "location_text": "Pavia, Iloilo",
-    "province": "Iloilo",
-    "price_php": 1029780.0,
-    "lot_area_sqm": 48.0,
-    "floor_area_sqm": 55.0,
-    "tct": "090-2010006793",
-    "sale_type": null,
-    "auction_date": null,
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Pavia%2C+Iloilo%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/pagibig_fil5920251110057-310x190.jpg",
-    "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202509220001-lot-17-blk-21-phase-1-deca-homes-paviadeca-homes-subd-pandac-pavia-iloilo-5001-1st-public-auction-on-aug-17-2026-aug-21-2026-occupied/",
-    "posted_date": "2026/08/31",
-    "branch": "BACOLOD BRANCH"
-  },
-  {
-    "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "RESIDENTIAL",
     "location_text": "Oton, Iloilo",
     "province": "Iloilo",
@@ -104,7 +86,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Oton%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_v-r-1-47-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-vacant-lot-lot-9-block-15-road-lot-18-savannah-glen-d-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
@@ -268,24 +250,6 @@
     "source_url": "https://www.lamudi.com.ph/property/41032-73-21876cf3eab7-98ba-19c564b-8e55-7cb7",
     "posted_date": null,
     "branch": null
-  },
-  {
-    "source": "foreclosurephilippines",
-    "seller": "Pag-IBIG",
-    "property_type": null,
-    "location_text": "Leganes, Iloilo",
-    "province": "Iloilo",
-    "price_php": 1680660.0,
-    "lot_area_sqm": 52.0,
-    "floor_area_sqm": 51.0,
-    "tct": "090-2021011625",
-    "sale_type": null,
-    "auction_date": null,
-    "maps_url": "https://www.google.com/maps/search/?api=1&query=Leganes%2C+Iloilo%2C+Philippines",
-    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/pagibig_fil5920251103004-310x190.jpg",
-    "source_url": "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202503250020-lot-26-blk-2-phase-s2-deca-homes-leganes-residences-guinobatan-leganes-iloilo-5003-1st-public-auction-on-aug-17-2026-aug-21-2026-occupied/",
-    "posted_date": "2026/08/31",
-    "branch": "BACOLOD BRANCH"
   },
   {
     "source": "lamudi",
@@ -595,7 +559,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "RESIDENTIAL",
     "location_text": "Oton, Iloilo",
     "province": "Iloilo",
@@ -608,7 +572,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Oton%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_r-2024002508-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lot-6-block-11-savannah-glen-e-subdivision-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
@@ -757,7 +721,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "RESIDENTIAL",
     "location_text": "Oton, Iloilo",
     "province": "Iloilo",
@@ -770,7 +734,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Oton%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_r-2024001671-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lot-14-block-11-savannah-glen-e-3-subdivision-brgy-abilay-norte-oton-iloilo-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
@@ -973,7 +937,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "RESIDENTIAL",
     "location_text": "Iloilo City, Iloilo",
     "province": "Iloilo",
@@ -986,7 +950,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Iloilo+City%2C+Iloilo%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_r-2024002914-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-condominium-unit-as2-215-2-f-storey-2-avida-towers-atria-donato-pison-ave-brgy-san-rafael-mandurriao-iloilo-city-iloilo-pending-consolidated-title-no-tax-declaratio/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
@@ -1747,7 +1711,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "AGRICULTURAL",
     "location_text": "Pilar, Capiz",
     "province": "Capiz",
@@ -1760,7 +1724,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_v-a-1-1-1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-foreclosed-agricultural-vacant-lot-lot-459-brgy-binaobaoan-pilar-capiz-interior-for-sale/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
@@ -1891,7 +1855,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "AGRICULTURAL",
     "location_text": "Pilar, Capiz",
     "province": "Capiz",
@@ -1904,12 +1868,12 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_capiz1-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/bank-foreclosed-agricultural-vacant-lot-lot-384-brgy-binaobaoan-pilar-capiz-interior-for-sale/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "AGRICULTURAL",
     "location_text": "Pilar, Capiz",
     "province": "Capiz",
@@ -1922,7 +1886,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Pilar%2C+Capiz%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_v-a-1-7-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-agricultural-vacant-lot-lot-382-brgy-binaobaoan-pilar-capiz-interior-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
@@ -2467,7 +2431,7 @@
   },
   {
     "source": "foreclosurephilippines",
-    "seller": "Unknown (foreclosurephilippines)",
+    "seller": "BDO",
     "property_type": "RESIDENTIAL",
     "location_text": "Kalibo, Aklan",
     "province": "Aklan",
@@ -2480,7 +2444,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Kalibo%2C+Aklan%2C+Philippines",
     "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/09/bdo_r-2024002246-310x190.jpg",
     "source_url": "https://www.foreclosurephilippines.com/advert/foreclosed-residential-house-lot-lots-6488-and-6489-jaime-cardinal-sin-avenue-brgy-mabilo-kalibo-aklan-pending-consolidation-first-come-first-served-negotiated-sale/",
-    "posted_date": "2026/09/01",
+    "posted_date": "2026/09/11",
     "branch": null
   },
   {
