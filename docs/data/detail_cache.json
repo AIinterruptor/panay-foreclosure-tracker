@@ -2702,5 +2702,29 @@
     "fetched_at": "2026-09-15T11:01:09.300278+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/bfs-foreclosed-house-and-lot-at-blk-6-lot-8-road-lot-3-landheights-subd-quezon-iloilo-city-iloilo-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-09-18T10:32:18.830760+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/bfs-foreclosed-single-detached-house-and-lot-ledesco-village-bo-jinactacan-iloilo-city-iloilo-lot-area-485-00-sqm-floor-area-74-00-sqm-for-negotiated-sale-occupied/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-09-18T10:32:18.830760+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/foreclosed-vacant-lot-for-sale-in-roxas-city-capiz-an-0077574/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-09-18T10:32:18.830760+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
