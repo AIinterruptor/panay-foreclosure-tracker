@@ -2726,5 +2726,77 @@
     "fetched_at": "2026-09-18T10:32:18.830760+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202503190095-lot-32-blk-22-phase-2-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "902022023157",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202604290002-lot-56-blk-10-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022401",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606240011-lot-32-blk-41-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023007775",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606250005-lot-111-blk-13-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023006406",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606250027-lot-69-blk-40-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023007719",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-805823102500075-lot-8-blk-24-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001950",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-805823102500062-lot-15-blk-23-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001938",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-805823102500097-lot-6-blk-25-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-sep-28-2026-oct-2-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001972",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202504110001-lot-1-blk-11-cagay-roxas-city-capiz-5800-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "T-50554",
+    "fetched_at": "2026-09-21T17:52:49.394015+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
