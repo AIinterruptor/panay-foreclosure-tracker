@@ -2798,5 +2798,21 @@
     "fetched_at": "2026-09-21T17:52:49.394015+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202601290013-lot-13-b-happy-homes-subdivision-ilaya-poblacion-zarraga-iloilo-5004-2nd-public-auction-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2015003284",
+    "fetched_at": "2026-09-22T10:58:00.531116+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202510220014-lot-3-blk-9-phase-i-deca-homes-pavia-pandac-pavia-iloilo-5001-2nd-public-auction-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2020012209",
+    "fetched_at": "2026-09-22T10:58:00.531116+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
