@@ -2838,5 +2838,53 @@
     "fetched_at": "2026-09-25T16:29:08.114713+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202505220029-lot-62-blk-22-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-21-2026-sep-25-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023187",
+    "fetched_at": "2026-09-25T21:04:48.876542+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202502200011-lot-10-blk-4-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-21-2026-sep-25-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022021985",
+    "fetched_at": "2026-09-25T21:04:48.876542+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202508270009-lot-44-blk-5-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-21-2026-sep-25-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022093",
+    "fetched_at": "2026-09-25T21:04:48.876542+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202507290008-lot-81-blk-26-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-21-2026-sep-25-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023574",
+    "fetched_at": "2026-09-25T21:04:48.876542+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202508270038-lot-68-blk-21-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-21-2026-sep-25-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023101",
+    "fetched_at": "2026-09-25T21:04:48.876542+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202409270002-lot-42-blk-22-phase-s2-deca-homes-leganes-residences-guinobatan-leganes-iloilo-5003-negotiated-sale-on-sep-21-2026-sep-25-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2021012328",
+    "fetched_at": "2026-09-25T21:04:48.876542+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
