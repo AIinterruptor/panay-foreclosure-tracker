@@ -3102,5 +3102,85 @@
     "fetched_at": "2026-09-30T03:55:22.577802+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202607240001-lot-10-blk-53-phase-i-lumina-iloilo-abilay-norte-oton-iloilo-5020-1st-public-auction-on-oct-12-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022000025",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202510300006-lot-21-blk-22-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-sep-21-2026-sep-25-2026-occupi/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023146",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202608200002-lot-17-blk-21-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-oct-12-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023050",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202510300008-lot-87-blk-20-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-14-2026-sep-18-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023030",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202509250021-lot-57-blk-26-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-oct-10-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023550",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202608270002-lot-4-blk-57-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-oct-12-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022024749",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202608200004-lot-52-blk-42-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-oct-12-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023007843",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202608270007-lot-5-blk-57-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-oct-12-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022024750",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202608250007-lot-38-blk-29-deca-homes-leganes-residences-site-5-guinobatan-leganes-iloilo-5003-1st-public-auction-on-oct-12-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2024011988",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202603170003-lot-5-blk-1-san-antonio-resort-village-baybay-roxas-city-capiz-5800-1st-public-auction-on-oct-12-2026-oct-16-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2016000117",
+    "fetched_at": "2026-10-07T22:40:10.971452+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
