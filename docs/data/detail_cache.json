@@ -3246,5 +3246,13 @@
     "fetched_at": "2026-10-12T14:22:34.614092+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/foreclosed-vacant-lot-for-sale-in-roxas-city-capiz-an-0065389/": {
+    "status": "no_branch",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-10-13T13:31:36.807098+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
