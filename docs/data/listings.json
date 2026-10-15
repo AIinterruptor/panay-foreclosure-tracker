@@ -414,6 +414,24 @@
     "branch": null
   },
   {
+    "source": "foreclosurephilippines",
+    "seller": "Unknown (foreclosurephilippines)",
+    "property_type": null,
+    "location_text": "Iloilo City, Iloilo",
+    "province": "Iloilo",
+    "price_php": 2289860.0,
+    "lot_area_sqm": 230.0,
+    "floor_area_sqm": 177.7,
+    "tct": null,
+    "sale_type": null,
+    "auction_date": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Iloilo+City%2C+Iloilo%2C+Philippines",
+    "image_url": "https://www.foreclosurephilippines.com/wp-content/uploads/2026/10/sss_westernvisayas_item14-310x190.jpg",
+    "source_url": "https://www.foreclosurephilippines.com/advert/sss-foreclosed-property-lot-20-block-2-bh-subdivision-brgy-navais-mandurriao-iloilo-city-one-storey-residential/",
+    "posted_date": "2026/10/14",
+    "branch": null
+  },
+  {
     "source": "lamudi",
     "seller": "My Saving Grace Realty & Development Corp",
     "property_type": "House",
