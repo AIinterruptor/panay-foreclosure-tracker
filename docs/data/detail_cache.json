@@ -3254,5 +3254,93 @@
     "fetched_at": "2026-10-13T13:31:36.807098+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202603270013-lot-12-blk-25-lumina-iloilo-ph-4-abilay-norte-oton-iloilo-5020-negotiated-sale-on-oct-24-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "090-2021002146",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202504290007-lot-50-blk-12-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "090-2023006261",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202410170009-lot-53-blk-25-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-oct-24-2026-oct-30-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "090-2022023454",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202511280008-lot-40-blk-5-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-oct-24-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "090-2022022089",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202606260007-lot-12-blk-34-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "090-2023007368",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202509240020-lot-63-blk-1-phase-ii-deca-homes-pavia-pandac-pavia-iloilo-5001-negotiated-sale-on-oct-24-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "090-2019007582",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-805823102500078-lot-11-blk-24-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "097-2022001953",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-805823102500031-lot-10-blk-22-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-sep-28-2026-oct-2-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "097-2022001907",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858201904220003-lot-1454-f-1-blk-psd-06-080822-dumolog-roxas-city-capiz-5800-negotiated-sale-on-oct-24-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "097-2020000957",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858201904220002-lot-1454-f-2-blk-psd-06-080822-dumolog-roxas-city-capiz-5800-negotiated-sale-on-oct-24-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "097-2020000958",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-805818071800026-lot-6-d-3-e-non-subdivision-mongpong-roxas-city-capiz-5800-negotiated-sale-on-oct-24-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH (",
+    "tct": "097-2015001780",
+    "fetched_at": "2026-10-19T12:03:45.280400+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
