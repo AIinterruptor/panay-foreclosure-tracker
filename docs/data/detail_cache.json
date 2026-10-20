@@ -3342,5 +3342,77 @@
     "fetched_at": "2026-10-19T12:03:45.280400+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202505260021-lot-22-blk-42-phase-i-lumina-iloilo-abilay-norte-oton-iloilo-5020-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2020012255",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202509230007-lot-04-blk-18-phase-i-lumina-iloilo-abilay-norte-oton-iloilo-5020-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022008575",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202512160011-lot-12-blk-1-dayot-subdivision-cansilayan-pototan-iloilo-5008-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2010009860",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202508190021-lot-21-blk-21-phase-i-lumina-iloilo-abilay-norte-oton-iloilo-5020-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023000325",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-859202603170001-lot-39-blk-28-deca-homes-pavia-pandac-pavia-iloilo-5001-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2016002723",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202604240016-lot-91-blk-25-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023492",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202606250024-lot-10-blk-56-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022024716",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-858202606240020-lot-14-blk-34-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-2nd-public-auction-on-oct-26-2026-oct-30-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022024179",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-ropa-858202510290003-lot-131-blk-2-phase-s2-deca-homes-leganes-residences-guinobatan-leganes-iloilo-5003-1st-public-auction-on-oct-5-2026-oct-9-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2021011730",
+    "fetched_at": "2026-10-20T16:19:41.182524+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
