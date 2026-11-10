@@ -3590,5 +3590,21 @@
     "fetched_at": "2026-11-03T13:35:37.434760+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-805823102500014-lot-15-blk-21-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-nov-16-2026-nov-20-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001890",
+    "fetched_at": "2026-11-10T14:18:13.093922+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202306150007-lot-934-b-1-j-4-olano-subdivision-banica-roxas-city-capiz-5800-negotiated-sale-on-nov-16-2026-nov-20-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2012001514",
+    "fetched_at": "2026-11-10T14:18:13.093922+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
