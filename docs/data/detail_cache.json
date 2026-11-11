@@ -3702,5 +3702,29 @@
     "fetched_at": "2026-11-10T22:49:34.528676+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202604290022-lot-19-blk-1-lapaz-baldoza-iloilo-city-iloilo-5000-1st-public-auction-on-nov-16-2026-nov-20-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "T-159187",
+    "fetched_at": "2026-11-11T04:38:10.472148+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202505220014-lot-28-blk-53-deca-homes-pavia-resort-residences-pandac-pavia-iloilo-5001-negotiated-sale-on-nov-16-2026-nov-20-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2024001046",
+    "fetched_at": "2026-11-11T04:38:10.472148+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202610120004-lot-5-blk-11-deca-homes-leganes-residences-site-3-guihaman-leganes-iloilo-5003-1st-public-auction-on-nov-16-2026-nov-20-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023012001",
+    "fetched_at": "2026-11-11T04:38:10.472148+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
