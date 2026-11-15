@@ -3726,5 +3726,61 @@
     "fetched_at": "2026-11-11T04:38:10.472148+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-805823102500085-lot-18-blk-24-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-nov-21-2026-nov-27-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001960",
+    "fetched_at": "2026-11-15T04:45:47.821315+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-805823102500040-lot-19-blk-22-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-nov-21-2026-nov-27-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001916",
+    "fetched_at": "2026-11-15T04:45:47.821315+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-805823102500097-lot-6-blk-25-tierra-verde-bolo-roxas-city-capiz-5800-negotiated-sale-on-nov-21-2026-nov-27-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001972",
+    "fetched_at": "2026-11-15T04:45:47.821315+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858201904220003-lot-1454-f-1-blk-psd-06-080822-dumolog-roxas-city-capiz-5800-negotiated-sale-on-nov-21-2026-nov-27-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2020000957",
+    "fetched_at": "2026-11-15T04:45:47.821315+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858201904220002-lot-1454-f-2-blk-psd-06-080822-dumolog-roxas-city-capiz-5800-negotiated-sale-on-nov-21-2026-nov-27-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2020000958",
+    "fetched_at": "2026-11-15T04:45:47.821315+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202409270008-lot-4-blk-16-graceville-homes-subdivision-tiza-roxas-city-capiz-5800-negotiated-sale-on-nov-21-2026-nov-27-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022002075",
+    "fetched_at": "2026-11-15T04:45:47.821315+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202210190004-lot-4026-c-2-e-blk-psd-061914-0252-dumolog-roxas-city-capiz-5800-negotiated-sale-on-nov-21-2026-nov-27-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2024000082",
+    "fetched_at": "2026-11-15T04:45:47.821315+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
