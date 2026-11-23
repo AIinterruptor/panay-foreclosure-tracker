@@ -3878,5 +3878,101 @@
     "fetched_at": "2026-11-15T13:25:11.025180+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202504290005-lot-77-blk-22-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023202",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202505220034-lot-30-blk-18-deca-homes-sta-barbara-residences-socialized-phase-1-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022016771",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202503190097-lot-14-blk-8-phase-3-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "902023005955",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202507310016-lot-5-blk-8-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022275",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202507310014-lot-63-blk-9-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023006062",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202602270020-lot-3-blk-19-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022858",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202607210004-lot-92-blk-39-phase-iii-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023007623",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202505220026-lot-55-blk-7-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "error",
+    "branch": null,
+    "tct": null,
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": "fetch_detail returned no content"
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202410240002-lot-68-blk-28-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022023745",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202510210002-lot-44-blk-4-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026-oc/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022019",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202610130012-lot-16-blk-52-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-nov-30-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022024570",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202610120001-lot-16-blk-39-deca-homes-sta-barbara-residences-socialized-phase-3-balabag-santa-barbara-iloilo-5002-1st-public-auction-on-nov-30-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023007547",
+    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
