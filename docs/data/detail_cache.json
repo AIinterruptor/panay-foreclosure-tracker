@@ -4006,5 +4006,13 @@
     "fetched_at": "2026-11-24T03:47:52.539565+00:00",
     "attempts": 1,
     "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202510300018-lot-101-blk-10-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-2nd-public-auction-on-nov-30-2026-dec-4-202/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022446",
+    "fetched_at": "2026-11-24T16:57:39.105220+00:00",
+    "attempts": 1,
+    "last_error": null
   }
 }
