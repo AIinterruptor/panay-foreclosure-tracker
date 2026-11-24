@@ -3936,12 +3936,12 @@
     "last_error": null
   },
   "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202505220026-lot-55-blk-7-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
-    "status": "error",
-    "branch": null,
-    "tct": null,
-    "fetched_at": "2026-11-23T17:20:11.862800+00:00",
-    "attempts": 1,
-    "last_error": "fetch_detail returned no content"
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2022022252",
+    "fetched_at": "2026-11-24T03:47:52.539565+00:00",
+    "attempts": 2,
+    "last_error": null
   },
   "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202410240002-lot-68-blk-28-deca-homes-sta-barbara-residences-socialized-phase-2-balabag-santa-barbara-iloilo-5002-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
     "status": "ok",
@@ -3972,6 +3972,38 @@
     "branch": "BACOLOD BRANCH",
     "tct": "090-2023007547",
     "fetched_at": "2026-11-23T17:20:11.862800+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202606250026-lot-37-blk-12-deca-homes-leganes-residences-site-3-guihaman-leganes-iloilo-5003-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "090-2023012087",
+    "fetched_at": "2026-11-24T03:47:52.539565+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202205130002-lot-1454-f-7-none-dumolog-roxas-city-capiz-5800-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2023000968",
+    "fetched_at": "2026-11-24T03:47:52.539565+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-805819070300116-lot-939-a-2-blk-psd-06-058801-olano-subdivision-mongpong-roxas-city-capiz-5800-negotiated-sale-on-nov-28-2026-dec-4-2026/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "097-2022001258",
+    "fetched_at": "2026-11-24T03:47:52.539565+00:00",
+    "attempts": 1,
+    "last_error": null
+  },
+  "https://www.foreclosurephilippines.com/advert/pag-ibig-acquired-asset-858202403250002-lot-4-blk-pcs-06-000960-poblacion-norte-ivisan-capiz-5805-negotiated-sale-on-nov-28-2026-dec-4-2026-occupied/": {
+    "status": "ok",
+    "branch": "BACOLOD BRANCH",
+    "tct": "089-2019000076",
+    "fetched_at": "2026-11-24T03:47:52.539565+00:00",
     "attempts": 1,
     "last_error": null
   }
